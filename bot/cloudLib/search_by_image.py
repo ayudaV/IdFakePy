@@ -57,5 +57,3 @@ def detect_web(uri):
             '{}\nFor more info on error messages, check: '
             'https://cloud.google.com/apis/design/errors'.format(
                 response.error.message))
-
-detect_web('https://cdn.discordapp.com/attachments/783741831744716821/1037371916777951364/img.jpg')
