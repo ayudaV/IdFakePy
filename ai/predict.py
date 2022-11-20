@@ -1,6 +1,7 @@
 import argparse
 import os
 import joblib
+from sklearn.pipeline import Pipeline
 
 def prepareArgParser():
     arg_parser = argparse.ArgumentParser(description='A fake news classifier training system')
@@ -18,11 +19,8 @@ def parseArgs(arg_parser):
     return (input_file, texts_dir)
 
 
-def predict_txt(model, texts):
+def predict_txt(model: Pipeline, texts):
     return model.predict(texts)
-
-def predict(model, text):
-    return model.predict([text])[0]
 
 def main():
     input_file, texts_dir = parseArgs(prepareArgParser())

@@ -3,20 +3,14 @@ import os
 
 google = google_custom_search.CustomSearch(apikey=os.environ["GCS_DEVELOPER_KEY"], engine_id=os.environ["GCS_CX"])
 
-results = google.search("Brasil Paralelo")
+def search(text: str):
+    if len(text.split()) > 30:
+        text = " ".join(text.split()[:30])
+    print(text)
+    try:
+        results = google.search(text)
+        print([r.display_url for r in results])
+        return ["\n".join([r.title, r.url]) for r in results]
+    except:
+        return ["No Results in the Search"]
 
-for result in results:
-    # get a title.
-    print(result.title)
-  
-    # get a link.
-    print(result.url)
-  
-    # get a displayLink.
-    print(result.display_url)
-
-    # get a htmlTitle.
-    print(result.html_title)
-  
-    # get a snippet.
-    print(result.snippet)

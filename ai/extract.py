@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import argparse
-
+from sys import *
 
 # create a argparser
 def prepareArgParser():
@@ -19,15 +19,25 @@ def parseArgs(arg_parser):
 	return (input_dir, output_file)
 
 def extract_to_csv(input_dir, output_file):
+    print("Reading the texts")
     df = pd.DataFrame(columns=['tag', 'text'])
+    count = 0
+    sizeReal = len([entry for entry in os.listdir(input_dir + '/real') if os.path.isfile(os.path.join(input_dir + '/real', entry))])
+    sizeFake = len([entry for entry in os.listdir(input_dir + '/fake') if os.path.isfile(os.path.join(input_dir + '/fake', entry))])
+    size = sizeFake + sizeReal
     for filename in os.listdir(input_dir + '/real'):
         text = open(input_dir + '/real/' + filename).read()
-        df.loc[len(df)] = ['REAL', text]
+        df.loc[count] = ['REAL', text]
+        count += 1
+        stdout.write(f" Done: {(count * 100/size):.2f}%\r")
         
     for filename in os.listdir(input_dir + '/fake'):
         text = open(input_dir + '/fake/' + filename).read()
-        df.loc[len(df)] = ['FAKE', text]
-        
+        df.loc[count] = ['FAKE', text]
+        count += 1
+        stdout.write(f" Done: {(count * 100/size):.2f}%\r")
+    
+    print("\nParsing to dataset")
     df.to_csv(output_file,index=False)
 
 def main():
