@@ -1,69 +1,80 @@
-from flask import Flask, request
+from flask import Flask, jsonify, request
+from cloudLib.vision_ai import detectText
+from cloudLib.speech_to_text import audio_transcript, audio_transcript_local
+from cloudLib.search_by_image import detect_web
+from cloudLib.google_search import search
+from cloudLib.video_transcriptor import transcribe_video
+from idfake_ai.predict import isFake
 import requests
-from twilio.twiml.messaging_response import MessagingResponse
+import os
 
 app = Flask(__name__)
 
-
-@app.route('/bot', methods=['POST'])
-def bot():
-    incoming_msg = request.values.get('Body', '').lower()
-    print(request.values)
-    resp = MessagingResponse()
-    msg = resp.message()
-    responded = False
-    if 'frase' in incoming_msg:
-        # retorne uma citação
-        r = requests.get('https://api.quotable.io/random')
-        if r.status_code == 200:
-            data = r.json()
-            quote = f'{data["content"]} ({data["author"]})'
-        else:
-            quote = 'Não consegui recuperar uma citação neste momento, desculpe.'
-        msg.body(quote)
-        responded = True
-    if 'gato' in incoming_msg or 'gata' in incoming_msg:
-        # retorne uma foto de gato
-        msg.media('https://cataas.com/cat')
-        responded = True
-    if not responded:
-        msg.body('Só conheço frases e gatos famosos, desculpe!')
-    return str(resp)
-
-@app.route('/img', methods=['POST'])
+@app.route("/img", methods=['POST'])
 def img():
-    r_msg = request.values
-    resp = MessagingResponse()
-    msg = resp.message()
-    print(r_msg)
-    responded = False
-    if int(r_msg.get('NumMedia', '')) > 0:
-        media_url = r_msg.get('MediaUrl0', '')
-        print(media_url)
-        downloadMedia(media_url)
-        msg.media(media_url)
-        msg.body('gostoso!')
-        responded = True
-    if not responded:
-        msg.body('mande um gostoso!')
-    return str(resp)
+    request_data = request.get_json()
+    url = request_data['img']
+    print(url)
+    text = detectText(url)
+    searchImg = detect_web(url)
+    response_ai = "Texto muito pequeno para analise por inteligência artificial"
+    pages = []
+    if len(text.split()) > 100:
+        response_ai = "Fake" if isFake(text) == 1 else "Real"
+        pages = search(text)
+    return jsonify("\n\n".join([response_ai] + searchImg + pages))
 
-def downloadMedia(media_url):
-    media = requests.get(media_url, stream=True)
-    media_type = media.headers.get('Content-Type')
-    media_type = media_type[media_type.find('/')+1:]
-    if not media.ok:
-        print('ocoreu um erro, status', media.status_code)
-    else:
-        with open('midia' + '.' + media_type, 'wb') as imagem:
-            for dado in media.iter_content(1024):
-                if not dado:
-                    break
-                
-                imagem.write(dado)
-        
-    
-        
+@app.route("/audio", methods=['POST'])
+def audio():
+    request_data = request.get_json()
+    url = request_data['audio']
+    result = audio_transcript(url)
+    print(result)
+    response_ai = isFake(result[0].alternatives[0].transcript)
+    print(response_ai)
+    return jsonify("Fake" if response_ai == 1 else "Real")
+
+@app.route("/text", methods=['POST'])
+def text():
+    request_data = request.get_json()
+    text = request_data['text']
+    print(text)
+    response_ai = "Fake" if isFake(text) == 1 else "Real"
+    pages = search(text)
+    return jsonify("\n\n".join([response_ai] + pages))
+
+@app.route("/video", methods=['POST'])
+def video():
+    request_data = request.get_json()
+    url = request_data['video']
+    print(url)
+    path = download(url, 'assets/video')
+    print(path)
+    result = transcribe_video(path)
+    response_ai = "Fake" if isFake(result) == 1 else "Real"
+    return jsonify(response_ai)
+
+def download(url: str, dest_folder: str):
+    if not os.path.exists(dest_folder):
+        os.makedirs(dest_folder)  # create folder if it does not exist
+
+    filename = url.split('/')[-1].replace(" ", "_")  # be careful with file names
+    file_path = os.path.join(dest_folder, filename)
+
+    r = requests.get(url, stream=True)
+    if r.ok:
+        print("saving to", os.path.abspath(file_path))
+        with open(file_path, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=1024 * 8):
+                if chunk:
+                    f.write(chunk)
+                    f.flush()
+                    os.fsync(f.fileno())
+        return file_path
+    else:  # HTTP status code 4XX/5XX
+        print("Download failed: status code {}\n{}".format(r.status_code, r.text))
+        return None
+
 
 if __name__ == '__main__':
-   app.run()
+    app.run()
