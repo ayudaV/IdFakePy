@@ -6,11 +6,11 @@ google = google_custom_search.CustomSearch(apikey=os.environ["GCS_DEVELOPER_KEY"
 def search(text: str):
     if len(text.split()) > 30:
         text = " ".join(text.split()[:30])
-    print(text)
+        print(text)
     try:
         results = google.search(text)
         print([r.display_url for r in results])
         return ["\n".join([r.title, r.url]) for r in results]
     except:
-        return ["No Results in the Search"]
+        return ["Sem resultados na pesquisa por texto."]
 

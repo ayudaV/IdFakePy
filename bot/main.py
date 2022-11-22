@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
-from cloudLib.vision_ai import detectText
-from cloudLib.speech_to_text import audio_transcript, audio_transcript_local
-from cloudLib.search_by_image import detect_web
+from cloudLib.vision_ai import detectText, detect_text_local
+from cloudLib.speech_to_text import audio_transcript
+from cloudLib.search_by_image import detect_web, detect_web_local
 from cloudLib.google_search import search
 from cloudLib.video_transcriptor import transcribe_video
 from idfake_ai.predict import isFake
@@ -15,44 +15,51 @@ def img():
     request_data = request.get_json()
     url = request_data['img']
     print(url)
-    text = detectText(url)
-    searchImg = detect_web(url)
-    response_ai = "Texto muito pequeno para analise por inteligência artificial"
-    pages = []
-    if len(text.split()) > 100:
-        response_ai = "Fake" if isFake(text) == 1 else "Real"
-        pages = search(text)
-    return jsonify("\n\n".join([response_ai] + searchImg + pages))
+    try:
+        text:str = detectText(url)
+    except:
+        path = download(url, 'assets/img')
+        text:str = detect_text_local(path)
+    print(text)
+    pages = search(text)
+    print(len(text.split()))
+    searchImg = []
+    if len(text.split()) < 100:
+        try:
+            searchImg = detect_web(url)
+        except:
+            path = download(url, 'assets/img')
+            searchImg = detect_web_local(path)
+    print([response_ai(text)] + searchImg + pages)
+    return jsonify("\n\n".join([response_ai(text)] + searchImg + pages))
 
 @app.route("/audio", methods=['POST'])
 def audio():
     request_data = request.get_json()
     url = request_data['audio']
-    result = audio_transcript(url)
-    print(result)
-    response_ai = isFake(result[0].alternatives[0].transcript)
-    print(response_ai)
-    return jsonify("Fake" if response_ai == 1 else "Real")
+    res = audio_transcript(url)
+    print(res)
+    return jsonify(response_ai(res))
 
 @app.route("/text", methods=['POST'])
 def text():
     request_data = request.get_json()
-    text = request_data['text']
+    text:str = request_data['text']
     print(text)
-    response_ai = "Fake" if isFake(text) == 1 else "Real"
     pages = search(text)
-    return jsonify("\n\n".join([response_ai] + pages))
+
+    return jsonify("\n\n".join([response_ai(text)] + pages))
 
 @app.route("/video", methods=['POST'])
 def video():
     request_data = request.get_json()
     url = request_data['video']
+    url = requests.get(url).url
     print(url)
     path = download(url, 'assets/video')
     print(path)
-    result = transcribe_video(path)
-    response_ai = "Fake" if isFake(result) == 1 else "Real"
-    return jsonify(response_ai)
+    res = transcribe_video(path)
+    return jsonify(response_ai(res))
 
 def download(url: str, dest_folder: str):
     if not os.path.exists(dest_folder):
@@ -75,6 +82,12 @@ def download(url: str, dest_folder: str):
         print("Download failed: status code {}\n{}".format(r.status_code, r.text))
         return None
 
+def response_ai(text: str):
+    res = "Texto muito pequeno para análise por inteligência artificial!"
+    if len(text.split()) > 100:
+        res = "Essa notícia parece falsa." if isFake(text) == 1 else "Essa notícia parece verdadeira."
+    print(res)
+    return res
 
 if __name__ == '__main__':
     app.run()
