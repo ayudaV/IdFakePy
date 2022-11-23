@@ -24,7 +24,7 @@ def img():
     pages = search(text)
     print(len(text.split()))
     searchImg = []
-    if len(text.split()) < 100:
+    if len(text.split()) < 80:
         try:
             searchImg = detect_web(url)
         except:
@@ -83,8 +83,9 @@ def download(url: str, dest_folder: str):
         return None
 
 def response_ai(text: str):
-    res = "Texto muito pequeno para análise por inteligência artificial!"
-    if len(text.split()) > 100:
+    print(text)
+    res = f"Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80, tamanho atual: {len(text.split())}"
+    if len(text.split()) > 80:
         res = "Essa notícia parece falsa." if isFake(text) == 1 else "Essa notícia parece verdadeira."
     print(res)
     return res

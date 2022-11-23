@@ -46,9 +46,9 @@ def transcribe_video(path:str):
     my_clip.audio.write_audiofile("assets/audio/video_audio.wav")
     result_audio = audio_transcript_local('assets/audio/video_audio.wav')
     print(result_audio)
-    result = result_audio[0].alternatives[0].transcript
+    result = "\n".join([r.alternatives[0].transcript for r in result_audio])
     clearFolder(folder)
     save_i_keyframes(path)
     for filename in os.listdir(folder):
-        result += detect_text_local(folder + filename)
+        result += "\n" + detect_text_local(folder + filename)
     return result
