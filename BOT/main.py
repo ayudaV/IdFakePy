@@ -11,7 +11,7 @@ def img():
     resp = MessagingResponse()
     msg = resp.message()
     idf_r = {}
-    url = 'https://0baf-177-194-71-96.ngrok.io/'
+    url = 'http://127.0.0.1:5000/'
     
     # verifica se há algum conteúdo com a mensagem
     if int(r_msg.get('NumMedia', '')) > 0:

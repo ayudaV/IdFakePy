@@ -21,7 +21,7 @@ def img():
         path = download(url, 'assets/img')
         text:str = detect_text_local(path)
     print(text)
-    pages = search(text)
+    pages = search(text) if len(text.split()) >= 5 else []
     print(len(text.split()))
     searchImg = []
     if len(text.split()) < 80:
@@ -46,7 +46,7 @@ def text():
     request_data = request.get_json()
     text:str = request_data['text']
     print(text)
-    pages = search(text)
+    pages = search(text) if len(text.split()) >= 5 else []
 
     return jsonify("\n\n".join([response_ai(text)] + pages))
 
