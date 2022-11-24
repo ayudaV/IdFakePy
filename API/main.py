@@ -1,11 +1,13 @@
 from flask import Flask, jsonify, request
 from cloudLib.vision_ai import detect_text, detect_text_local
-from cloudLib.speech_to_text import transcribe_audio
+from cloudLib.speech_to_text import transcribe_audio_local_ogg
 from cloudLib.search_by_image import detect_web, detect_web_local
 from cloudLib.google_search import search
 from cloudLib.video_transcriptor import transcribe_video
 from idfake_ai.predict import isFake
-import requests, os, logging
+import requests
+import os
+import logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -26,7 +28,7 @@ def img():
     try:
         text = detect_text(url)
     except:
-        logging.warning("Main  : Redirecting to alternative text detection")
+        logging.warning(bcolors.WARNING + "Main  : Redirecting to alternative text detection" + bcolors.ENDC)
         path = download(url, 'assets/img')
         text = detect_text_local(path)
 
@@ -35,7 +37,7 @@ def img():
         try:
             search_img = detect_web(url)
         except:
-            logging.warning("Main  : Redirecting to alternative image search")
+            logging.warning(bcolors.WARNING + "Main  : Redirecting to alternative image search" + bcolors.ENDC)
             path = download(url, 'assets/img')
             search_img = detect_web_local(path)
     else:
@@ -49,7 +51,8 @@ def audio():
     request_data = request.get_json()
     url = request_data['audio']
     logging.info(f"Main  : Audio url: {url}")
-    res = transcribe_audio(url)
+    path = download(url, 'assets/audio')
+    res = transcribe_audio_local_ogg(path)
     texts = [r.alternatives[0].transcript for r in res]
     return jsonify(response_ai(" ".join(texts)))
 
@@ -85,7 +88,7 @@ def download(url: str, dest_folder: str):
 
     r = requests.get(url, stream=True)
     if r.ok:
-        logging.info(f"saving to {os.path.abspath(file_path)}")
+        logging.info(f"{bcolors.OKGREEN}saving to {os.path.abspath(file_path)}{bcolors.ENDC}")
         with open(file_path, 'wb') as f:
             for chunk in r.iter_content(chunk_size=1024 * 8):
                 if chunk:
@@ -94,7 +97,8 @@ def download(url: str, dest_folder: str):
                     os.fsync(f.fileno())
         return file_path
     else:  # HTTP status code 4XX/5XX
-        logging.warning(f"Main   : Download failed: status code {r.status_code}\n{r.text}")
+        logging.warning(
+            f"{bcolors.WARNING}Main   : Download failed: status code {r.status_code}\n{r.text}{bcolors.ENDC}")
         return None
 
 
@@ -102,12 +106,51 @@ def response_ai(text: str):
     logging.info(f"Main  : AI text analysis. Text: {text[:50]}...")
     res = "Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras."
     if len(text.split()) > 80:
-        res = "Essa notícia parece falsa." if isFake(
-            text) == 1 else "Essa notícia parece verdadeira."
+        if isFake(text) == 1:
+            res = "Essa notícia parece falsa."
+            print(bcolors.FAIL +
+                  "███████╗ █████╗ ██╗  ██╗███████╗\n" +
+                  "██╔════╝██╔══██╗██║ ██╔╝██╔════╝\n" +
+                  "█████╗  ███████║█████╔╝ █████╗  \n" +
+                  "██╔══╝  ██╔══██║██╔═██╗ ██╔══╝  \n" +
+                  "██║     ██║  ██║██║  ██╗███████╗\n" +
+                  "╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝\n" +
+                  bcolors.ENDC)
+        else:
+            res = "Essa notícia parece verdadeira."
+            print(bcolors.OKGREEN +
+                  "██████╗ ███████╗ █████╗ ██╗     \n" +
+                  "██╔══██╗██╔════╝██╔══██╗██║     \n" +
+                  "██████╔╝█████╗  ███████║██║     \n" +
+                  "██╔══██╗██╔══╝  ██╔══██║██║     \n" +
+                  "██║  ██║███████╗██║  ██║███████╗\n" +
+                  "╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝\n" +
+                  bcolors.ENDC)
     logging.info(f"Main  : AI text analysis. Response: {res}")
+
     return res
 
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
 if __name__ == '__main__':
+    print(bcolors.OKBLUE +
+          "██╗██████╗    ███████╗ █████╗ ██╗  ██╗███████╗     █████╗ ██████╗ ██╗\n" + bcolors.OKCYAN +
+          "██║██╔══██╗██╗██╔════╝██╔══██╗██║ ██╔╝██╔════╝    ██╔══██╗██╔══██╗██║\n" + bcolors.OKGREEN +
+          "██║██║  ██║╚═╝█████╗  ███████║█████╔╝ █████╗      ███████║██████╔╝██║\n" + bcolors.WARNING +
+          "██║██║  ██║██╗██╔══╝  ██╔══██║██╔═██╗ ██╔══╝      ██╔══██║██╔═══╝ ██║\n" + bcolors.FAIL +
+          "██║██████╔╝╚═╝██║     ██║  ██║██║  ██╗███████╗    ██║  ██║██║     ██║\n" + bcolors.WARNING +
+          "╚═╝╚═════╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝     ╚═╝\n" + 
+          bcolors.ENDC)
     logging.info("Main  : Starting API on port 5000")
     app.run(host="0.0.0.0", port=5000, debug=True)

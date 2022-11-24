@@ -17,6 +17,7 @@ config_ogg = speech.RecognitionConfig(
     sample_rate_hertz=16000,
     language_code="pt-BR",
 )
+
 config_wav = speech.RecognitionConfig(
     encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
     audio_channel_count=2,
@@ -51,6 +52,17 @@ def transcribe_audio_local(path):
     logging.info(f"speech_to_text   : Local audio trancribe done. Response: {response.results}")
     return (response.results)
 
+def transcribe_audio_local_ogg(path):
+    filename = f'{str(uuid.uuid4())}.ogg'
+
+    upload_blob('idfake-audiofiles', path, filename)
+    audio = speech.RecognitionAudio(uri=f'gs://idfake-audiofiles/{filename}')
+
+    # Detects speech in the audio file
+    operation = client.long_running_recognize(config=config_ogg, audio=audio)
+    response = operation.result(timeout=90)
+    logging.info(f"speech_to_text   : Local audio ogg trancribe done. Response: {response.results}")
+    return (response.results)
 
 def upload_blob(bucket_name, source_file_name, destination_blob_name):
     """Uploads a file to the bucket."""

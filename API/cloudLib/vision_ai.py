@@ -17,6 +17,12 @@ def detect_text(uri):
     image = vision.Image()
     image.source.image_uri = uri
     response = client.text_detection(image=image)
+    if response.error.message:
+        logging.error(
+            'vision_ai   : {response.error.message}\nFor more info on error messages, check: '
+            'https://cloud.google.com/apis/design/errors')
+        raise Exception("Ocorreu um erro na transcrição de imagem.")
+
     if response.text_annotations:
         res: str = response.text_annotations[0].description
         logging.info(f"vision_ai  : detect_text response: {res}")
@@ -34,6 +40,12 @@ def detect_text_local(path):
 
     image = vision.Image(content=content)
     response = client.text_detection(image=image)
+    if response.error.message:
+        logging.error(
+            'vision_ai   : {response.error.message}\nFor more info on error messages, check: '
+            'https://cloud.google.com/apis/design/errors')
+        raise Exception("Ocorreu um erro na transcrição de imagem.")
+
     if response.text_annotations:
         res: str = response.text_annotations[0].description
         logging.info(f"vision_ai  : detect_text_local response: {res}")

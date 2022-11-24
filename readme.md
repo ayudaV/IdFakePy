@@ -38,6 +38,8 @@ Além disso, é necessário ter uma conta na Google Cloud e, posteriormente, ati
 
 As APIs da Google precisam de identificações, para evitar colocá-las no código e causar riscos de segurança, você pode utilizar a GCloud para armazenar suas credenciais. Veja isso em: https://googleapis.dev/python/google-api-core/latest/auth.html.
 
+Para rodar, entre no diretório “/API” e execute o arquivo ‘main.py’.
+
 Para realizar o treinamento da I.A utilizada no projeto, rode os comandos a seguir dentro do diretório “/AI”: 
 
 git clone https://github.com/roneysco/Fake.br-Corpus.git
@@ -49,6 +51,3 @@ python extract.py reduced_texts
 python classify.py texts.csv
 
 python predict.py idFake_model.pkl test
-
-Para rodar, entre no diretório “/API” e execute o arquivo ‘main.py’.
-

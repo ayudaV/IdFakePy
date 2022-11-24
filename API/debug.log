@@ -738,3 +738,1068 @@ todos nós.
 Prêmio Nobel, professor japon...
 2022-11-24 01:37:23,464 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
 2022-11-24 01:37:23,468 [INFO] 172.23.32.1 - - [24/Nov/2022 01:37:23] "POST /img HTTP/1.1" 200 -
+2022-11-24 08:20:34,506 [INFO] Main  : Starting API on port 5000
+2022-11-24 08:20:34,520 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-24 08:20:34,520 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-24 08:20:34,523 [INFO]  * Restarting with stat
+2022-11-24 08:20:37,341 [INFO] Main  : Starting API on port 5000
+2022-11-24 08:20:37,348 [WARNING]  * Debugger is active!
+2022-11-24 08:20:37,353 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 08:21:59,769 [INFO] 127.0.0.1 - - [24/Nov/2022 08:21:59] "[33mGET / HTTP/1.1[0m" 404 -
+2022-11-24 08:24:36,759 [INFO] Main  : Starting text process
+2022-11-24 08:24:36,762 [INFO] Main  : Text lenght: 472
+2022-11-24 08:24:37,497 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 08:24:37,498 [INFO] Main  : AI text analysis. Text: O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia ...
+2022-11-24 08:24:37,509 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 08:24:37,510 [INFO] 127.0.0.1 - - [24/Nov/2022 08:24:37] "POST /text HTTP/1.1" 200 -
+2022-11-24 08:24:57,001 [INFO] Main  : Starting image process
+2022-11-24 08:24:59,673 [INFO] vision_ai  : detect_text response: Without text
+2022-11-24 08:25:04,403 [INFO] search_by_image   : 10 Pages with matching images found:
+2022-11-24 08:25:04,404 [INFO] search_by_image   : Page url   : https://www.exoticindiaart.com/book/details/yugacharya-swami-vivekananda-kannada-mzl292/
+2022-11-24 08:25:04,405 [INFO] search_by_image   : Page url   : https://www.researchgate.net/figure/a-Cephalelus-uncinatus-male-on-an-inflorescence-bract-of-female-Hypodiscus-aristatus-b_fig1_263564776
+2022-11-24 08:25:04,405 [INFO] search_by_image   : Page url   : https://www.researchgate.net/figure/Body-size-divergence-When-populations-differed-in-body-width-low-and-moderate-range_fig5_314748706
+2022-11-24 08:25:04,406 [INFO] search_by_image   : Page url   : https://www.researchgate.net/figure/Effect-of-birds-on-intermediate-predators-and-herbivores-a-Arthropod-species-scores_fig3_326111701
+2022-11-24 08:25:04,407 [INFO] search_by_image   : Page url   : https://www.researchgate.net/figure/Behavioral-comparison-of-specialist-and-generalist-larval-tortoise-beetles-representing_tbl1_7743521
+2022-11-24 08:25:04,408 [INFO] search_by_image   : Page url   : https://www.exoticindiaart.com/book/details/amara-ma-anandamayi-bengali-mzs716/
+2022-11-24 08:25:04,409 [INFO] search_by_image   : Page url   : https://www.zalgirioklinika.lt/uploads/f-11.pdf
+2022-11-24 08:25:04,409 [INFO] search_by_image   : Page url   : http://elib.shpl.ru/ru/nodes/55237-neofitsialnaya-chast-3-1-fevralya
+2022-11-24 08:25:04,410 [INFO] search_by_image   : Page url   : https://twitter.com/webtechfr?lang=en
+2022-11-24 08:25:04,411 [INFO] search_by_image   : Page url   : https://cyberleninka.ru/article/n/i-m-efimov-svyaz-vremyon-osobennosti-literaturotsentrizma-v-avtobiograficheskoy-proze-russkogo-zarubezhya
+2022-11-24 08:25:04,412 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 08:25:04,413 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 08:25:04,414 [INFO] 127.0.0.1 - - [24/Nov/2022 08:25:04] "POST /img HTTP/1.1" 200 -
+2022-11-24 09:50:30,984 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/vision_ai.py', reloading
+2022-11-24 09:50:31,433 [INFO]  * Restarting with stat
+2022-11-24 09:50:34,050 [INFO] Main  : Starting API on port 5000
+2022-11-24 09:50:34,057 [WARNING]  * Debugger is active!
+2022-11-24 09:50:34,058 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 09:50:49,643 [INFO] Main  : Starting API on port 5000
+2022-11-24 09:50:49,648 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-24 09:50:49,649 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-24 09:50:49,650 [INFO]  * Restarting with stat
+2022-11-24 09:50:52,082 [INFO] Main  : Starting API on port 5000
+2022-11-24 09:50:52,087 [WARNING]  * Debugger is active!
+2022-11-24 09:50:52,088 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 09:53:41,614 [INFO] Main  : Starting image process
+2022-11-24 09:53:43,931 [INFO] error {
+  code: 8
+  message: "We can not access the URL currently. Please download the content and pass it in."
+}
+
+2022-11-24 09:53:43,932 [INFO] vision_ai  : detect_text response: Without text
+2022-11-24 09:53:51,068 [INFO] search_by_image   : Without pages with matching images found.
+2022-11-24 09:53:51,069 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 09:53:51,070 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 09:53:51,074 [INFO] 127.0.0.1 - - [24/Nov/2022 09:53:51] "POST /img HTTP/1.1" 200 -
+2022-11-24 09:55:15,989 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/vision_ai.py', reloading
+2022-11-24 09:55:16,332 [INFO]  * Restarting with stat
+2022-11-24 09:55:18,488 [INFO] Main  : Starting API on port 5000
+2022-11-24 09:55:18,493 [WARNING]  * Debugger is active!
+2022-11-24 09:55:18,493 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 09:55:29,562 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/vision_ai.py', reloading
+2022-11-24 09:55:29,900 [INFO]  * Restarting with stat
+2022-11-24 09:55:32,232 [INFO] Main  : Starting API on port 5000
+2022-11-24 09:55:32,239 [WARNING]  * Debugger is active!
+2022-11-24 09:55:32,240 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 09:55:51,525 [INFO] Main  : Starting image process
+2022-11-24 09:55:53,415 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 09:55:53,991 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 09:55:53,992 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 09:55:53,992 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 09:55:53,992 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 09:55:53,992 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 09:55:53,993 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 09:55:53,993 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 09:55:53,993 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 09:55:53,996 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 09:55:53,997 [INFO] 127.0.0.1 - - [24/Nov/2022 09:55:53] "POST /img HTTP/1.1" 200 -
+2022-11-24 09:56:11,565 [INFO] Main  : Starting text process
+2022-11-24 09:56:11,566 [INFO] Main  : Text lenght: 1
+2022-11-24 09:56:11,567 [INFO] Main  : AI text analysis. Text: a...
+2022-11-24 09:56:11,567 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 09:56:11,569 [INFO] 127.0.0.1 - - [24/Nov/2022 09:56:11] "POST /text HTTP/1.1" 200 -
+2022-11-24 09:58:50,541 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/vision_ai.py', reloading
+2022-11-24 09:58:50,904 [INFO]  * Restarting with stat
+2022-11-24 09:58:52,937 [INFO] Main  : Starting API on port 5000
+2022-11-24 09:58:52,947 [WARNING]  * Debugger is active!
+2022-11-24 09:58:52,948 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 09:59:01,805 [INFO] Main  : Starting image process
+2022-11-24 09:59:03,990 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 09:59:04,875 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 09:59:04,875 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 09:59:04,876 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 09:59:04,876 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 09:59:04,877 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 09:59:04,877 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 09:59:04,877 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 09:59:04,878 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 09:59:04,881 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 09:59:04,883 [INFO] 127.0.0.1 - - [24/Nov/2022 09:59:04] "POST /img HTTP/1.1" 200 -
+2022-11-24 09:59:22,205 [INFO] Main  : Starting image process
+2022-11-24 09:59:24,113 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 09:59:24,629 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 09:59:24,629 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 09:59:24,630 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 09:59:24,630 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 09:59:24,631 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 09:59:24,631 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 09:59:24,633 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 09:59:24,634 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 09:59:24,639 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 09:59:24,641 [INFO] 127.0.0.1 - - [24/Nov/2022 09:59:24] "POST /img HTTP/1.1" 200 -
+2022-11-24 09:59:34,593 [INFO] Main  : Starting image process
+2022-11-24 09:59:36,203 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 09:59:36,852 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 09:59:36,853 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 09:59:36,854 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 09:59:36,854 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 09:59:36,855 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 09:59:36,856 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 09:59:36,856 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 09:59:36,857 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 09:59:36,860 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 09:59:36,862 [INFO] 127.0.0.1 - - [24/Nov/2022 09:59:36] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:00:21,750 [INFO] Main  : Starting image process
+2022-11-24 10:00:23,580 [INFO] vision_ai  : detect_text response: 300
+camilaantonieta Dia 17/11 o dia que perdi meu
+menino, perdi meu grande amor para a
+maldade da internet.
+Dia que não vou me perdoar por ter saído de
+casa. Dia o qual não consegui abraçar e nem
+despedir do meu filho.
+Dia que não consegui falar um eu te amo mais
+uma vez.
+Já tem algum tempo que meu filho é fã de
+algumas revistas conhecidas como animes.
+Desses animes foram criados comunidades na
+internet o qual alimentam vários distúrbios,
+como o suicídio o qual meu filho fazia parte.
+Nesta revista e comunidades pessoas
+maldosas inventam desafios e manipulam a
+mente inocente de nossas crianças fazendo-os
+cometeres testes que muitas das vezes
+acabam em desgraça. Assim como aconteceu
+com o meu filho.
+Meu filho acreditou que seria capaz de ter êxito
+no teste da corda no pescoço o qual ele teria
+que aguentar 20 segundos, ele se arriscou e
+criou todo ambiente. O que ele não sabia que
+isso acabaria com sua vida.
+2022-11-24 10:00:24,161 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:00:24,162 [INFO] Main  : AI text analysis. Text: 300
+camilaantonieta Dia 17/11 o dia que perdi meu
+...
+2022-11-24 10:00:24,167 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:00:24,169 [INFO] 127.0.0.1 - - [24/Nov/2022 10:00:24] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:00:51,511 [INFO] Main  : Starting image process
+2022-11-24 10:00:53,314 [INFO] vision_ai  : detect_text response: 150
+10.
+TRAIDORA
+DA PATRIA
+SENADORA SORAYA TRHONICKE PRESIDENTE DA
+COMISSAO DE AGRICULTURA E REFORMA AGRARIA
+NO SENADO, É RESPONSÁVEL PELA APROVAÇÃO DA
+LEI QUE PERMITE A VENDA DE TERRAS
+BRASILEIRAS A ESTRANGEIROS.
+2022-11-24 10:00:54,096 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:00:57,316 [INFO] search_by_image   : 10 Pages with matching images found:
+2022-11-24 10:00:57,318 [INFO] search_by_image   : Page url   : https://www.topmidianews.com.br/na-lata/na-lata-soraya-abraca-embaixador-comunista/151596/
+2022-11-24 10:00:57,319 [INFO] search_by_image   : Page url   : https://twitter.com/wanmingyang/status/1098566895928832000?lang=ca
+2022-11-24 10:00:57,321 [INFO] search_by_image   : Page url   : https://twitter.com/hashtag/sorayatraidora?lang=da&src=hash
+2022-11-24 10:00:57,322 [INFO] search_by_image   : Page url   : https://twitter.com/wanmingyang/status/1098566895928832000?lang=en
+2022-11-24 10:00:57,322 [INFO] search_by_image   : Page url   : https://twitter.com/hashtag/sorayatraidora?src=hash
+2022-11-24 10:00:57,323 [INFO] search_by_image   : Page url   : https://twitter.com/juniormelorn_/status/1564574605540573185
+2022-11-24 10:00:57,324 [INFO] search_by_image   : Page url   : https://twitter.com/isamelissams/status/1342993512564977668?lang=sv
+2022-11-24 10:00:57,325 [INFO] search_by_image   : Page url   : https://mobile.twitter.com/wsidenis
+2022-11-24 10:00:57,326 [INFO] search_by_image   : Page url   : https://twitter.com/isamelissams/status/1342993512564977668
+2022-11-24 10:00:57,326 [INFO] search_by_image   : Page url   : https://twitter.com/mfriasoficial/status/1568187244879482880?lang=ar-x-fm
+2022-11-24 10:00:57,328 [INFO] Main  : AI text analysis. Text: 150
+10.
+TRAIDORA
+DA PATRIA
+SENADORA SORAYA TRHONIC...
+2022-11-24 10:00:57,328 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:00:57,330 [INFO] 127.0.0.1 - - [24/Nov/2022 10:00:57] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:01:12,548 [INFO] Main  : Starting image process
+2022-11-24 10:01:13,989 [INFO] vision_ai  : detect_text response: Without text
+2022-11-24 10:01:17,623 [INFO] search_by_image   : 10 Pages with matching images found:
+2022-11-24 10:01:17,624 [INFO] search_by_image   : Page url   : https://medicalxpress.com/news/2017-07-fake-news-people-ability-images.html
+2022-11-24 10:01:17,625 [INFO] search_by_image   : Page url   : https://www.inverse.com/article/34293-fake-news-images-manipulated
+2022-11-24 10:01:17,625 [INFO] search_by_image   : Page url   : https://www.discovermagazine.com/mind/people-are-terrible-at-spotting-fake-photos
+2022-11-24 10:01:17,626 [INFO] search_by_image   : Page url   : https://www.latimes.com/science/sciencenow/la-sci-sn-fake-news-photos-20170718-htmlstory.html
+2022-11-24 10:01:17,627 [INFO] search_by_image   : Page url   : https://www.mirror.co.uk/tech/can-you-spot-whats-fake-10816318
+2022-11-24 10:01:17,628 [INFO] search_by_image   : Page url   : https://www.science.org/content/article/can-you-tell-whether-photo-has-been-manipulated
+2022-11-24 10:01:17,628 [INFO] search_by_image   : Page url   : https://www.washingtonpost.com/can-you-tell-fake-news-when-you-see-it/54143932-efb7-46de-af6b-f92108a329dc_quiz.html
+2022-11-24 10:01:17,629 [INFO] search_by_image   : Page url   : https://www.coventrytelegraph.net/news/local-news/more-50-people-cant-spot-13348290
+2022-11-24 10:01:17,630 [INFO] search_by_image   : Page url   : https://www.thesun.co.uk/living/4042050/can-you-spot-whats-fake-in-these-photographs-study-finds-nearly-half-of-people-cant/
+2022-11-24 10:01:17,630 [INFO] search_by_image   : Page url   : https://www.irishmirror.ie/lifestyle/can-you-spot-whats-fake-10816318
+2022-11-24 10:01:17,632 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 10:01:17,632 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:01:17,633 [INFO] 127.0.0.1 - - [24/Nov/2022 10:01:17] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:01:29,480 [INFO] Main  : Starting text process
+2022-11-24 10:01:29,481 [INFO] Main  : Text lenght: 311
+2022-11-24 10:01:30,192 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 10:01:30,192 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 10:01:30,193 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 10:01:30,194 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 10:01:30,194 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 10:01:30,195 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 10:01:30,196 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 10:01:30,196 [INFO] Main  : AI text analysis. Text: Declaração chocante. Prêmio Nobel, professor japon...
+2022-11-24 10:01:30,204 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:01:30,206 [INFO] 127.0.0.1 - - [24/Nov/2022 10:01:30] "POST /text HTTP/1.1" 200 -
+2022-11-24 10:01:55,379 [INFO] Main  : Starting video process
+2022-11-24 10:01:55,380 [INFO] Main  : Video url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MMf6998bbee42f41c72791fe36a34e71d2/Media/ME801868527e0ba2d68a2c1958e858bd4b
+2022-11-24 10:01:57,742 [INFO] saving to /home/terada/idfake/API/assets/video/ME801868527e0ba2d68a2c1958e858bd4b
+2022-11-24 10:02:10,075 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 10:02:13,270 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_0.jpg
+2022-11-24 10:02:13,401 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_300.jpg
+2022-11-24 10:02:13,522 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_600.jpg
+2022-11-24 10:02:13,650 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_900.jpg
+2022-11-24 10:02:13,813 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_1200.jpg
+2022-11-24 10:02:13,989 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_1500.jpg
+2022-11-24 10:02:14,127 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_1800.jpg
+2022-11-24 10:02:14,270 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to e7f38c38-bed8-40a2-8b80-d5b1377e63e4.wav.
+2022-11-24 10:02:14,272 [INFO] Saved: ME801868527e0ba2d68a2c1958e858bd4b_i_frame_2100.jpg
+2022-11-24 10:02:14,754 [INFO] vision_ai  : detect_text_local response: derinição
+2022-11-24 10:02:15,237 [INFO] vision_ai  : detect_text_local response: By la definição
+La
+2022-11-24 10:02:15,685 [INFO] vision_ai  : detect_text_local response: Baith definição!
+2022-11-24 10:02:16,252 [INFO] vision_ai  : detect_text_local response: Balta Definição!
+2022-11-24 10:02:16,783 [INFO] vision_ai  : detect_text_local response: Tipos de
+LADRÕES
+ava definição!
+2022-11-24 10:02:17,369 [INFO] vision_ai  : detect_text_local response: Baita definição!
+2022-11-24 10:02:17,831 [INFO] vision_ai  : detect_text_local response: Banita Blekinicão!
+2022-11-24 10:02:18,319 [INFO] vision_ai  : detect_text_local response: Baia Metnição!
+2022-11-24 10:02:40,370 [INFO] speech_to_text   : Local audio trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163411
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016577
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:02:40,371 [INFO] video_trancriptor    : all done
+2022-11-24 10:02:40,371 [INFO] video_trancriptor    : Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo
+ ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente
+derinição
+By la definição
+La
+Baith definição!
+Balta Definição!
+Tipos de
+LADRÕES
+ava definição!
+Baita definição!
+Banita Blekinicão!
+Baia Metnição!
+2022-11-24 10:02:40,372 [INFO] Main  : AI text analysis. Text: Segundo Lutero existem dois tipos de ladrões o lad...
+2022-11-24 10:02:40,377 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:02:40,379 [INFO] 127.0.0.1 - - [24/Nov/2022 10:02:40] "POST /video HTTP/1.1" 200 -
+2022-11-24 10:03:34,262 [INFO] Main  : Starting video process
+2022-11-24 10:03:34,263 [INFO] Main  : Video url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MM2644b7a17f41b541196627fb51cf83bd/Media/ME9f6f5aac57effa63324564fd818036bd
+2022-11-24 10:03:36,007 [INFO] saving to /home/terada/idfake/API/assets/video/ME9f6f5aac57effa63324564fd818036bd
+2022-11-24 10:03:38,569 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 10:03:40,644 [INFO] Saved: ME9f6f5aac57effa63324564fd818036bd_i_frame_0.jpg
+2022-11-24 10:03:40,805 [INFO] Saved: ME9f6f5aac57effa63324564fd818036bd_i_frame_300.jpg
+2022-11-24 10:03:40,957 [INFO] Saved: ME9f6f5aac57effa63324564fd818036bd_i_frame_600.jpg
+2022-11-24 10:03:41,123 [INFO] Saved: ME9f6f5aac57effa63324564fd818036bd_i_frame_900.jpg
+2022-11-24 10:03:41,272 [INFO] Saved: ME9f6f5aac57effa63324564fd818036bd_i_frame_1200.jpg
+2022-11-24 10:03:41,950 [INFO] vision_ai  : detect_text_local response: ouça o que o amigo
+do lufa tá fazendpo
+2022-11-24 10:03:42,232 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to d7c9af4f-99c2-4619-8b2e-faf78ca4fad9.wav.
+2022-11-24 10:03:43,005 [INFO] vision_ai  : detect_text_local response: duça o que o amigo
+do vla ta razendo
+2022-11-24 10:03:43,589 [INFO] vision_ai  : detect_text_local response: ouge o que o amigo
+do lulatá fazendo
+2022-11-24 10:03:44,172 [INFO] vision_ai  : detect_text_local response: ouça o que o amigo
+do lula tá fazendo
+2022-11-24 10:03:44,803 [INFO] vision_ai  : detect_text_local response: ouça o que o amigo
+doula tanzendo
+2022-11-24 10:03:57,638 [INFO] speech_to_text   : Local audio trancribe done. Response: [alternatives {
+  transcript: "Bom dia a todos irmãos nós se vemos a graça de acordar hoje de manhã no nosso Santuário o grupo que faz a peregrinação uma vez por mim eu gostaria de pedir para vocês por favor rezar pela Nicarágua que está passando por um momento muito difícil o Bispo creio que será executado se já não foi executado algum seminaristas e leigos Vamos rezar para este povo do Nicarágua sobretudo para os cristãos eles estão enviando as igrejas estão quebrando as estátua de Nossa Senhora em outras Então vamos rezar de todo coração vamos rezar vamos pedir a Deus a Nossa Senhora da Assunção que tenha piedade de nós amém amém amém"
+  confidence: 0.933674395
+}
+result_end_time {
+  seconds: 49
+  nanos: 830000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:03:57,640 [INFO] video_trancriptor    : all done
+2022-11-24 10:03:57,640 [INFO] video_trancriptor    : Bom dia a todos irmãos nós se vemos a graça de acordar hoje de manhã no nosso Santuário o grupo que faz a peregrinação uma vez por mim eu gostaria de pedir para vocês por favor rezar pela Nicarágua que está passando por um momento muito difícil o Bispo creio que será executado se já não foi executado algum seminaristas e leigos Vamos rezar para este povo do Nicarágua sobretudo para os cristãos eles estão enviando as igrejas estão quebrando as estátua de Nossa Senhora em outras Então vamos rezar de todo coração vamos rezar vamos pedir a Deus a Nossa Senhora da Assunção que tenha piedade de nós amém amém amém
+ouça o que o amigo
+do lufa tá fazendpo
+duça o que o amigo
+do vla ta razendo
+ouge o que o amigo
+do lulatá fazendo
+ouça o que o amigo
+do lula tá fazendo
+ouça o que o amigo
+doula tanzendo
+2022-11-24 10:03:57,641 [INFO] Main  : AI text analysis. Text: Bom dia a todos irmãos nós se vemos a graça de aco...
+2022-11-24 10:03:57,647 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:03:57,649 [INFO] 127.0.0.1 - - [24/Nov/2022 10:03:57] "POST /video HTTP/1.1" 200 -
+2022-11-24 10:05:26,441 [INFO] Main  : Starting text process
+2022-11-24 10:05:26,443 [INFO] Main  : Text lenght: 472
+2022-11-24 10:05:26,871 [INFO] Main  : Starting text process
+2022-11-24 10:05:26,873 [INFO] Main  : Text lenght: 311
+2022-11-24 10:05:27,142 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:05:27,143 [INFO] Main  : AI text analysis. Text: O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia ...
+2022-11-24 10:05:27,152 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:05:27,154 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:27] "POST /text HTTP/1.1" 200 -
+2022-11-24 10:05:27,625 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 10:05:27,626 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 10:05:27,626 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 10:05:27,627 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 10:05:27,627 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 10:05:27,628 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 10:05:27,629 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 10:05:27,629 [INFO] Main  : AI text analysis. Text: Declaração chocante. Prêmio Nobel, professor japon...
+2022-11-24 10:05:27,635 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:05:27,639 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:27] "POST /text HTTP/1.1" 200 -
+2022-11-24 10:05:28,285 [INFO] Main  : Starting image process
+2022-11-24 10:05:28,448 [INFO] Main  : Starting image process
+2022-11-24 10:05:28,454 [INFO] Main  : Starting image process
+2022-11-24 10:05:28,600 [INFO] Main  : Starting image process
+2022-11-24 10:05:29,435 [INFO] Main  : Starting video process
+2022-11-24 10:05:29,436 [INFO] Main  : Video url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MM89b82e820e849174fc5cb64ff4a3f21b/Media/ME95b6fd07b9e3a923582542620b7d4823
+2022-11-24 10:05:29,740 [INFO] vision_ai  : detect_text response: 150
+10.
+TRAIDORA
+DA PATRIA
+SENADORA SORAYA TRHONICKE PRESIDENTE DA
+COMISSAO DE AGRICULTURA E REFORMA AGRARIA
+NO SENADO, É RESPONSÁVEL PELA APROVAÇÃO DA
+LEI QUE PERMITE A VENDA DE TERRAS
+BRASILEIRAS A ESTRANGEIROS.
+2022-11-24 10:05:30,236 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:05:30,367 [INFO] vision_ai  : detect_text response: 300
+camilaantonieta Dia 17/11 o dia que perdi meu
+menino, perdi meu grande amor para a
+maldade da internet.
+Dia que não vou me perdoar por ter saído de
+casa. Dia o qual não consegui abraçar e nem
+despedir do meu filho.
+Dia que não consegui falar um eu te amo mais
+uma vez.
+Já tem algum tempo que meu filho é fã de
+algumas revistas conhecidas como animes.
+Desses animes foram criados comunidades na
+internet o qual alimentam vários distúrbios,
+como o suicídio o qual meu filho fazia parte.
+Nesta revista e comunidades pessoas
+maldosas inventam desafios e manipulam a
+mente inocente de nossas crianças fazendo-os
+cometeres testes que muitas das vezes
+acabam em desgraça. Assim como aconteceu
+com o meu filho.
+Meu filho acreditou que seria capaz de ter êxito
+no teste da corda no pescoço o qual ele teria
+que aguentar 20 segundos, ele se arriscou e
+criou todo ambiente. O que ele não sabia que
+isso acabaria com sua vida.
+2022-11-24 10:05:30,371 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 10:05:30,851 [INFO] vision_ai  : detect_text response: Without text
+2022-11-24 10:05:31,044 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 10:05:31,045 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 10:05:31,046 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 10:05:31,047 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 10:05:31,049 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 10:05:31,051 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 10:05:31,052 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 10:05:31,053 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 10:05:31,057 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:05:31,058 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:31] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:05:31,201 [INFO] saving to /home/terada/idfake/API/assets/video/ME95b6fd07b9e3a923582542620b7d4823
+2022-11-24 10:05:31,210 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:05:31,212 [INFO] Main  : AI text analysis. Text: 300
+camilaantonieta Dia 17/11 o dia que perdi meu
+...
+2022-11-24 10:05:31,218 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:05:31,220 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:31] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:05:33,796 [INFO] search_by_image   : 10 Pages with matching images found:
+2022-11-24 10:05:33,797 [INFO] search_by_image   : Page url   : https://www.topmidianews.com.br/na-lata/na-lata-soraya-abraca-embaixador-comunista/151596/
+2022-11-24 10:05:33,798 [INFO] search_by_image   : Page url   : https://twitter.com/wanmingyang/status/1098566895928832000?lang=ca
+2022-11-24 10:05:33,798 [INFO] search_by_image   : Page url   : https://twitter.com/hashtag/sorayatraidora?lang=da&src=hash
+2022-11-24 10:05:33,799 [INFO] search_by_image   : Page url   : https://twitter.com/wanmingyang/status/1098566895928832000?lang=en
+2022-11-24 10:05:33,800 [INFO] search_by_image   : Page url   : https://twitter.com/hashtag/sorayatraidora?src=hash
+2022-11-24 10:05:33,801 [INFO] search_by_image   : Page url   : https://twitter.com/juniormelorn_/status/1564574605540573185
+2022-11-24 10:05:33,801 [INFO] search_by_image   : Page url   : https://twitter.com/isamelissams/status/1342993512564977668?lang=sv
+2022-11-24 10:05:33,802 [INFO] search_by_image   : Page url   : https://mobile.twitter.com/wsidenis
+2022-11-24 10:05:33,802 [INFO] search_by_image   : Page url   : https://twitter.com/isamelissams/status/1342993512564977668
+2022-11-24 10:05:33,802 [INFO] search_by_image   : Page url   : https://twitter.com/mfriasoficial/status/1568187244879482880?lang=ar-x-fm
+2022-11-24 10:05:33,803 [INFO] Main  : AI text analysis. Text: 150
+10.
+TRAIDORA
+DA PATRIA
+SENADORA SORAYA TRHONIC...
+2022-11-24 10:05:33,803 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:05:33,804 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:33] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:05:34,410 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 10:05:34,481 [INFO] search_by_image   : 10 Pages with matching images found:
+2022-11-24 10:05:34,482 [INFO] search_by_image   : Page url   : https://medicalxpress.com/news/2017-07-fake-news-people-ability-images.html
+2022-11-24 10:05:34,483 [INFO] search_by_image   : Page url   : https://www.inverse.com/article/34293-fake-news-images-manipulated
+2022-11-24 10:05:34,483 [INFO] search_by_image   : Page url   : https://www.discovermagazine.com/mind/people-are-terrible-at-spotting-fake-photos
+2022-11-24 10:05:34,484 [INFO] search_by_image   : Page url   : https://www.latimes.com/science/sciencenow/la-sci-sn-fake-news-photos-20170718-htmlstory.html
+2022-11-24 10:05:34,484 [INFO] search_by_image   : Page url   : https://www.mirror.co.uk/tech/can-you-spot-whats-fake-10816318
+2022-11-24 10:05:34,485 [INFO] search_by_image   : Page url   : https://www.science.org/content/article/can-you-tell-whether-photo-has-been-manipulated
+2022-11-24 10:05:34,485 [INFO] search_by_image   : Page url   : https://www.washingtonpost.com/can-you-tell-fake-news-when-you-see-it/54143932-efb7-46de-af6b-f92108a329dc_quiz.html
+2022-11-24 10:05:34,486 [INFO] search_by_image   : Page url   : https://www.coventrytelegraph.net/news/local-news/more-50-people-cant-spot-13348290
+2022-11-24 10:05:34,486 [INFO] search_by_image   : Page url   : https://www.thesun.co.uk/living/4042050/can-you-spot-whats-fake-in-these-photographs-study-finds-nearly-half-of-people-cant/
+2022-11-24 10:05:34,487 [INFO] search_by_image   : Page url   : https://www.irishmirror.ie/lifestyle/can-you-spot-whats-fake-10816318
+2022-11-24 10:05:34,489 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 10:05:34,490 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:05:34,492 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:34] "POST /img HTTP/1.1" 200 -
+2022-11-24 10:05:36,840 [INFO] Saved: ME95b6fd07b9e3a923582542620b7d4823_i_frame_0.jpg
+2022-11-24 10:05:37,023 [INFO] Saved: ME95b6fd07b9e3a923582542620b7d4823_i_frame_300.jpg
+2022-11-24 10:05:37,180 [INFO] Saved: ME95b6fd07b9e3a923582542620b7d4823_i_frame_600.jpg
+2022-11-24 10:05:37,340 [INFO] Saved: ME95b6fd07b9e3a923582542620b7d4823_i_frame_900.jpg
+2022-11-24 10:05:37,486 [INFO] Saved: ME95b6fd07b9e3a923582542620b7d4823_i_frame_1200.jpg
+2022-11-24 10:05:38,169 [INFO] vision_ai  : detect_text_local response: ouça o que o amigo
+do lula tá fazendo
+2022-11-24 10:05:38,269 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 6292b367-1ce1-460f-9d24-75f4c44ba54c.wav.
+2022-11-24 10:05:38,774 [INFO] vision_ai  : detect_text_local response: ouge o que o amigo
+do lulatá fazendo
+2022-11-24 10:05:39,429 [INFO] vision_ai  : detect_text_local response: ouça o que o amigo
+do lufa tá fazendpo
+2022-11-24 10:05:40,006 [INFO] vision_ai  : detect_text_local response: ouça o que o amigo
+doula tanzendo
+2022-11-24 10:05:40,578 [INFO] vision_ai  : detect_text_local response: duça o que o amigo
+do vla ta razendo
+2022-11-24 10:05:51,857 [INFO] speech_to_text   : Local audio trancribe done. Response: [alternatives {
+  transcript: "Bom dia a todos irmãos nós se vemos a graça de acordar hoje de manhã no nosso Santuário o grupo que faz a peregrinação uma vez por mim eu gostaria de pedir para vocês por favor rezar pela Nicarágua que está passando por um momento muito difícil o Bispo creio que será executado se já não foi executado algum seminaristas e leigos Vamos rezar para este povo do Nicarágua sobretudo para os cristãos eles estão enviando as igrejas estão quebrando as estátua de Nossa Senhora em outras Então vamos rezar de todo coração vamos rezar vamos pedir a Deus a Nossa Senhora da Assunção que tenha piedade de nós amém amém amém"
+  confidence: 0.933674395
+}
+result_end_time {
+  seconds: 49
+  nanos: 830000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:05:51,857 [INFO] video_trancriptor    : all done
+2022-11-24 10:05:51,858 [INFO] video_trancriptor    : Bom dia a todos irmãos nós se vemos a graça de acordar hoje de manhã no nosso Santuário o grupo que faz a peregrinação uma vez por mim eu gostaria de pedir para vocês por favor rezar pela Nicarágua que está passando por um momento muito difícil o Bispo creio que será executado se já não foi executado algum seminaristas e leigos Vamos rezar para este povo do Nicarágua sobretudo para os cristãos eles estão enviando as igrejas estão quebrando as estátua de Nossa Senhora em outras Então vamos rezar de todo coração vamos rezar vamos pedir a Deus a Nossa Senhora da Assunção que tenha piedade de nós amém amém amém
+ouça o que o amigo
+do lula tá fazendo
+ouge o que o amigo
+do lulatá fazendo
+ouça o que o amigo
+do lufa tá fazendpo
+ouça o que o amigo
+doula tanzendo
+duça o que o amigo
+do vla ta razendo
+2022-11-24 10:05:51,858 [INFO] Main  : AI text analysis. Text: Bom dia a todos irmãos nós se vemos a graça de aco...
+2022-11-24 10:05:51,863 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:05:51,864 [INFO] 127.0.0.1 - - [24/Nov/2022 10:05:51] "POST /video HTTP/1.1" 200 -
+2022-11-24 10:08:38,527 [INFO] Main  : Starting video process
+2022-11-24 10:08:38,528 [INFO] Main  : Video url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MMeaec014bcff7e2bcca0989941f39d4e8/Media/ME3d586e84b94b17006fac30e212978efa
+2022-11-24 10:08:40,355 [INFO] saving to /home/terada/idfake/API/assets/video/ME3d586e84b94b17006fac30e212978efa
+2022-11-24 10:09:01,643 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 10:09:05,035 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_0.jpg
+2022-11-24 10:09:05,171 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_300.jpg
+2022-11-24 10:09:05,352 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_600.jpg
+2022-11-24 10:09:05,487 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_900.jpg
+2022-11-24 10:09:05,629 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_1200.jpg
+2022-11-24 10:09:05,774 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_1500.jpg
+2022-11-24 10:09:05,909 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_1800.jpg
+2022-11-24 10:09:06,050 [INFO] Saved: ME3d586e84b94b17006fac30e212978efa_i_frame_2100.jpg
+2022-11-24 10:09:06,659 [INFO] vision_ai  : detect_text_local response: Baita definição!
+2022-11-24 10:09:07,256 [INFO] vision_ai  : detect_text_local response: By la definição
+La
+2022-11-24 10:09:07,765 [INFO] vision_ai  : detect_text_local response: Banita Blekinicão!
+2022-11-24 10:09:08,239 [INFO] vision_ai  : detect_text_local response: derinição
+2022-11-24 10:09:08,814 [INFO] vision_ai  : detect_text_local response: Balta Definição!
+2022-11-24 10:09:09,014 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 1fca978a-7010-47a2-951c-e34cc46b0055.wav.
+2022-11-24 10:09:09,378 [INFO] vision_ai  : detect_text_local response: Baia Metnição!
+2022-11-24 10:09:09,949 [INFO] vision_ai  : detect_text_local response: Tipos de
+LADRÕES
+ava definição!
+2022-11-24 10:09:10,464 [INFO] vision_ai  : detect_text_local response: Baith definição!
+2022-11-24 10:09:32,150 [INFO] speech_to_text   : Local audio trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163351
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016577
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:09:32,151 [INFO] video_trancriptor    : all done
+2022-11-24 10:09:32,152 [INFO] video_trancriptor    : Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo
+ ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente
+Baita definição!
+By la definição
+La
+Banita Blekinicão!
+derinição
+Balta Definição!
+Baia Metnição!
+Tipos de
+LADRÕES
+ava definição!
+Baith definição!
+2022-11-24 10:09:32,152 [INFO] Main  : AI text analysis. Text: Segundo Lutero existem dois tipos de ladrões o lad...
+2022-11-24 10:09:32,155 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:09:32,156 [INFO] 127.0.0.1 - - [24/Nov/2022 10:09:32] "POST /video HTTP/1.1" 200 -
+2022-11-24 10:10:42,965 [INFO] Main  : Starting text process
+2022-11-24 10:10:42,966 [INFO] Main  : Text lenght: 1
+2022-11-24 10:10:42,967 [INFO] Main  : AI text analysis. Text: video_audio.wav...
+2022-11-24 10:10:42,967 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:10:42,969 [INFO] 127.0.0.1 - - [24/Nov/2022 10:10:42] "POST /text HTTP/1.1" 200 -
+2022-11-24 10:11:04,615 [INFO] Main  : Starting text process
+2022-11-24 10:11:04,616 [INFO] Main  : Text lenght: 1
+2022-11-24 10:11:04,616 [INFO] Main  : AI text analysis. Text: video_audio.wav...
+2022-11-24 10:11:04,617 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:11:04,618 [INFO] 127.0.0.1 - - [24/Nov/2022 10:11:04] "POST /text HTTP/1.1" 200 -
+2022-11-24 10:12:56,095 [INFO] Main  : Starting audio process
+2022-11-24 10:12:56,096 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MMdb998ad237bc2c10b859f1894d05a6dd/Media/ME2cd37e8a41e5dd4003323be66f71c32c
+2022-11-24 10:13:05,864 [INFO] speech_to_text   : Audio trancribe done. Response: []
+2022-11-24 10:13:05,865 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 10:13:05,865 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:13:05,866 [INFO] 127.0.0.1 - - [24/Nov/2022 10:13:05] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:17:11,202 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/speech_to_text.py', reloading
+2022-11-24 10:17:11,635 [INFO]  * Restarting with stat
+2022-11-24 10:17:14,115 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:17:14,121 [WARNING]  * Debugger is active!
+2022-11-24 10:17:14,122 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:17:41,550 [INFO] Main  : Starting audio process
+2022-11-24 10:17:41,551 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MMf6d435a1360cb630efafe60473770b53/Media/ME6aba4c19616c926346fb3d83ff422109
+2022-11-24 10:17:46,867 [INFO] 127.0.0.1 - - [24/Nov/2022 10:17:46] "[35m[1mPOST /audio HTTP/1.1[0m" 500 -
+2022-11-24 10:17:59,399 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/speech_to_text.py', reloading
+2022-11-24 10:17:59,919 [INFO]  * Restarting with stat
+2022-11-24 10:18:01,976 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:18:01,981 [WARNING]  * Debugger is active!
+2022-11-24 10:18:01,982 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:18:08,632 [INFO] Main  : Starting audio process
+2022-11-24 10:18:08,633 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MM290c3db0d71c2cd68a834755b94eb573/Media/ME7e112efa4f503d4c1f3af80fd982c2dc
+2022-11-24 10:18:16,731 [INFO] speech_to_text   : Audio trancribe done. Response: []
+2022-11-24 10:18:16,732 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 10:18:16,733 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:18:16,735 [INFO] 127.0.0.1 - - [24/Nov/2022 10:18:16] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:19:00,454 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/speech_to_text.py', reloading
+2022-11-24 10:19:00,795 [INFO]  * Restarting with stat
+2022-11-24 10:19:02,789 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:19:02,794 [WARNING]  * Debugger is active!
+2022-11-24 10:19:02,794 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:35:36,595 [INFO] Main  : Starting text process
+2022-11-24 10:35:36,596 [INFO] Main  : Text lenght: 129
+2022-11-24 10:35:37,232 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:35:37,233 [INFO] Main  : AI text analysis. Text: Segundo Lutero, existem dois tipos de ladrões.
+O l...
+2022-11-24 10:35:37,246 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:35:37,248 [INFO] 127.0.0.1 - - [24/Nov/2022 10:35:37] "POST /text HTTP/1.1" 200 -
+2022-11-24 10:38:51,331 [INFO] Main  : Starting audio process
+2022-11-24 10:38:51,332 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MMdd8ae2c763e13db7f37781068b362781/Media/ME1dcf70da999e1bfa4a9003b5970bd86c
+2022-11-24 10:39:00,321 [INFO] speech_to_text   : Audio trancribe done. Response: []
+2022-11-24 10:39:00,322 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 10:39:00,322 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:39:00,323 [INFO] 127.0.0.1 - - [24/Nov/2022 10:39:00] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:39:40,084 [INFO] Main  : Starting audio process
+2022-11-24 10:39:40,085 [INFO] Main  : Audio url: s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/d25e94cad9674b2dbeedb75c905930dd
+2022-11-24 10:39:48,827 [INFO] speech_to_text   : Audio trancribe done. Response: [alternatives {
+  transcript: "não estava ligado aí por isso ele"
+  confidence: 0.888796151
+}
+result_end_time {
+  seconds: 2
+  nanos: 340000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:39:48,827 [INFO] Main  : AI text analysis. Text: não estava ligado aí por isso ele...
+2022-11-24 10:39:48,828 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:39:48,829 [INFO] 172.23.32.1 - - [24/Nov/2022 10:39:48] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:40:10,790 [INFO] Main  : Starting audio process
+2022-11-24 10:40:10,791 [INFO] Main  : Audio url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 10:40:25,853 [INFO] speech_to_text   : Audio trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero que tem dois tipos de ladrões o ladrão comum é aquele que rouba sua carteira seu dinheiro do seu relógio e o seu cavalo o ladrão político é aquele que rouba o futuro ou seu conhecimento seu saúde educação e as suas forças e seus sorrisos que a diferença entre esses dois ladrões é que o ladrão comum escolhe para te roubar os teus dentes enquanto ladrão político é você que escolhe para derrubar a outra vez diferença e não menos importante é que o ladrão comum é procurado pela polícia e ladrão político é geralmente protegido pela polícia não é mera coincidência porque ele se encaixa muito bem no Brasil 2022"
+  confidence: 0.930016875
+}
+result_end_time {
+  seconds: 40
+  nanos: 890000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:40:25,855 [INFO] Main  : AI text analysis. Text: Segundo Lutero que tem dois tipos de ladrões o lad...
+2022-11-24 10:40:25,861 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:40:25,862 [INFO] 172.23.32.1 - - [24/Nov/2022 10:40:25] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:43:26,034 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 10:43:26,437 [INFO]  * Restarting with stat
+2022-11-24 10:43:28,692 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:43:28,699 [WARNING]  * Debugger is active!
+2022-11-24 10:43:28,700 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:44:09,937 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 10:44:10,302 [INFO]  * Restarting with stat
+2022-11-24 10:44:12,646 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:44:12,655 [WARNING]  * Debugger is active!
+2022-11-24 10:44:12,656 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:44:37,236 [INFO] Main  : Starting audio process
+2022-11-24 10:44:37,237 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MM12ff95594c091e4b232ae16becb95a36/Media/MEa1c9197fea3ee40b62f370c0d68b1ac0
+2022-11-24 10:44:38,965 [INFO] saving to /home/terada/idfake/API/assets/audio/MEa1c9197fea3ee40b62f370c0d68b1ac0
+2022-11-24 10:44:39,756 [INFO] speech_to_text   : File assets/audio/MEa1c9197fea3ee40b62f370c0d68b1ac0 uploaded to c20a8b70-3bd3-4a25-850c-e2da972bbf6d.wav.
+2022-11-24 10:44:47,681 [INFO] speech_to_text   : Local audio trancribe done. Response: []
+2022-11-24 10:44:47,683 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 10:44:47,683 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 10:44:47,685 [INFO] 127.0.0.1 - - [24/Nov/2022 10:44:47] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:45:44,300 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/speech_to_text.py', reloading
+2022-11-24 10:45:44,727 [INFO]  * Restarting with stat
+2022-11-24 10:45:46,975 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:45:46,982 [WARNING]  * Debugger is active!
+2022-11-24 10:45:46,982 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:45:57,054 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 10:45:57,423 [INFO]  * Restarting with stat
+2022-11-24 10:46:00,025 [INFO] Main  : Starting API on port 5000
+2022-11-24 10:46:00,035 [WARNING]  * Debugger is active!
+2022-11-24 10:46:00,036 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 10:46:14,324 [INFO] Main  : Starting audio process
+2022-11-24 10:46:14,325 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MMd728638b9df208cce6776815c4f00496/Media/MEd6c3badb0e09b0ce7a8380754753088d
+2022-11-24 10:46:16,140 [INFO] saving to /home/terada/idfake/API/assets/audio/MEd6c3badb0e09b0ce7a8380754753088d
+2022-11-24 10:46:17,040 [INFO] speech_to_text   : File assets/audio/MEd6c3badb0e09b0ce7a8380754753088d uploaded to 4f62f2aa-7a6c-4ee5-b4d3-b7fb1ce0e0ef.ogg.
+2022-11-24 10:46:36,675 [INFO] speech_to_text   : Local audio ogg trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero que tem dois tipos de ladrões o ladrão comum é aquele que rouba sua carteira seu dinheiro do seu relógio e o seu cavalo o ladrão político é aquele que rouba o futuro ou seu conhecimento seu saúde educação e as suas forças e seus sorrisos que a diferença entre esses dois ladrões é que o ladrão comum escolhe para te roubar os teus dentes enquanto ladrão político é você que escolhe para derrubar a outra vez diferença e não menos importante é que o ladrão comum é procurado pela polícia e ladrão político é geralmente protegido pela polícia não é mera coincidência porque ele se encaixa muito bem no Brasil 2022"
+  confidence: 0.930016875
+}
+result_end_time {
+  seconds: 40
+  nanos: 890000000
+}
+language_code: "pt-br"
+]
+2022-11-24 10:46:36,676 [INFO] Main  : AI text analysis. Text: Segundo Lutero que tem dois tipos de ladrões o lad...
+2022-11-24 10:46:36,678 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:46:36,680 [INFO] 127.0.0.1 - - [24/Nov/2022 10:46:36] "POST /audio HTTP/1.1" 200 -
+2022-11-24 10:59:46,832 [INFO] Main  : Starting text process
+2022-11-24 10:59:46,976 [INFO] Main  : Text lenght: 129
+2022-11-24 10:59:47,669 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 10:59:47,670 [INFO] Main  : AI text analysis. Text: Segundo Lutero, existem dois tipos de ladrões.
+O l...
+2022-11-24 10:59:47,678 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 10:59:47,679 [INFO] 127.0.0.1 - - [24/Nov/2022 10:59:47] "POST /text HTTP/1.1" 200 -
+2022-11-24 11:08:55,319 [INFO] Main  : Starting API on port 5000
+2022-11-24 11:08:55,330 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-24 11:08:55,331 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-24 11:08:55,333 [INFO]  * Restarting with stat
+2022-11-24 11:08:57,842 [INFO] Main  : Starting API on port 5000
+2022-11-24 11:08:57,854 [WARNING]  * Debugger is active!
+2022-11-24 11:08:57,856 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 11:33:36,493 [INFO] Main  : Starting text process
+2022-11-24 11:33:36,494 [INFO] Main  : Text lenght: 472
+2022-11-24 11:33:37,003 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 11:33:37,004 [INFO] Main  : AI text analysis. Text: O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia ...
+2022-11-24 11:33:37,012 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 11:33:37,016 [INFO] 127.0.0.1 - - [24/Nov/2022 11:33:37] "POST /text HTTP/1.1" 200 -
+2022-11-24 11:34:05,908 [INFO] Main  : Starting image process
+2022-11-24 11:34:08,842 [ERROR] vision_ai   : {response.error.message}
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+2022-11-24 11:34:08,843 [WARNING] Main  : Redirecting to alternative text detection
+2022-11-24 11:34:10,514 [INFO] saving to /home/terada/idfake/API/assets/img/ME641496ecba9274bf6446c4932e01bb7f
+2022-11-24 11:34:13,034 [INFO] vision_ai  : detect_text_local response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 11:34:13,744 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 11:34:13,745 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 11:34:13,745 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 11:34:13,746 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 11:34:13,746 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 11:34:13,747 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 11:34:13,747 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 11:34:13,748 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 11:34:13,752 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 11:34:13,753 [INFO] 127.0.0.1 - - [24/Nov/2022 11:34:13] "POST /img HTTP/1.1" 200 -
+2022-11-24 11:35:13,972 [INFO] Main  : Starting audio process
+2022-11-24 11:35:13,973 [INFO] Main  : Audio url: https://api.twilio.com/2010-04-01/Accounts/ACfb0936b1265a6120b0b5b302c11363af/Messages/MM54c16c6e024e4ab3c1d6e128db33c0f9/Media/ME8d2792b3f4b905432689a4f3dd3adfc0
+2022-11-24 11:35:15,679 [INFO] saving to /home/terada/idfake/API/assets/audio/ME8d2792b3f4b905432689a4f3dd3adfc0
+2022-11-24 11:35:17,037 [INFO] speech_to_text   : File assets/audio/ME8d2792b3f4b905432689a4f3dd3adfc0 uploaded to 6747848c-6787-4994-af2b-57217f3db0ba.ogg.
+2022-11-24 11:35:30,531 [INFO] speech_to_text   : Local audio ogg trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero Spin dois tipos de ladrões o ladrão comum é aquele que rouba sua carteira o seu dinheiro que o seu relógio e seu cavalo pula de um político é aquele que roubou sua cultura o conhecimento dos seus sonhos a sua saúde e a sua educação as suas forças e o seu sorriso atende-se que a diferença entre esses dois ladrões é que o ladrão comum viscose para roubar seus em quantos ladrão político é você que escolhe para te roubar a outra grande diferença e menos e não menos importante é que o ladrão comum é procurado pela polícia e ladrão político é geralmente protegido pela polícia Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.934430957
+}
+result_end_time {
+  seconds: 45
+  nanos: 300000000
+}
+language_code: "pt-br"
+]
+2022-11-24 11:35:30,532 [INFO] Main  : AI text analysis. Text: Segundo Lutero Spin dois tipos de ladrões o ladrão...
+2022-11-24 11:35:30,534 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 11:35:30,535 [INFO] 127.0.0.1 - - [24/Nov/2022 11:35:30] "POST /audio HTTP/1.1" 200 -
+2022-11-24 11:43:36,525 [INFO] Main  : Starting image process
+2022-11-24 11:43:38,909 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 11:43:39,577 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 11:43:39,577 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 11:43:39,578 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 11:43:39,578 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 11:43:39,578 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 11:43:39,579 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 11:43:39,579 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 11:43:39,579 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 11:43:39,581 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 11:43:39,582 [INFO] 127.0.0.1 - - [24/Nov/2022 11:43:39] "POST /img HTTP/1.1" 200 -
+2022-11-24 11:43:52,026 [INFO] Main  : Starting text process
+2022-11-24 11:43:52,026 [INFO] Main  : Text lenght: 130
+2022-11-24 11:43:52,562 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 11:43:52,563 [INFO] Main  : AI text analysis. Text: Segundo Lutero existem dois tipos de ladrões o lad...
+2022-11-24 11:43:52,564 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 11:43:52,565 [INFO] 127.0.0.1 - - [24/Nov/2022 11:43:52] "POST /text HTTP/1.1" 200 -
+2022-11-24 11:44:11,373 [INFO] Main  : Starting text process
+2022-11-24 11:44:11,373 [INFO] Main  : Text lenght: 149
+2022-11-24 11:44:11,913 [INFO] google_search    : 1 Pages with matching images found:
+2022-11-24 11:44:11,913 [INFO] google_search    : Page url   : https://g1.globo.com/educacao/noticia/2022/06/28/negro-e-ex-aluno-de-escola-publica-brasileiro-se-forma-em-harvard-e-dedica-diploma-ao-pai-morto-em-acidente-estudou-ate-a-4a-serie.ghtml
+2022-11-24 11:44:11,913 [INFO] Main  : AI text analysis. Text: Negro e ex-aluno de escola pública, brasileiro se ...
+2022-11-24 11:44:11,915 [INFO] Main  : AI text analysis. Response: Essa notícia parece verdadeira.
+2022-11-24 11:44:11,916 [INFO] 127.0.0.1 - - [24/Nov/2022 11:44:11] "POST /text HTTP/1.1" 200 -
+2022-11-24 11:48:09,796 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 11:48:10,189 [INFO]  * Restarting with stat
+2022-11-24 11:48:12,777 [INFO] Main  : Starting API on port 5000
+2022-11-24 11:48:12,781 [WARNING]  * Debugger is active!
+2022-11-24 11:48:12,783 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 11:50:31,510 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 11:50:31,823 [INFO]  * Restarting with stat
+2022-11-24 11:50:34,481 [INFO] Main  : Starting API on port 5000
+2022-11-24 11:50:34,487 [WARNING]  * Debugger is active!
+2022-11-24 11:50:34,488 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 11:50:45,556 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 11:50:45,943 [INFO]  * Restarting with stat
+2022-11-24 11:50:49,085 [INFO] Main  : Starting API on port 5000
+2022-11-24 11:50:49,096 [WARNING]  * Debugger is active!
+2022-11-24 11:50:49,096 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 11:51:04,998 [INFO] Main  : Starting text process
+2022-11-24 11:51:05,000 [INFO] Main  : Text lenght: 1
+2022-11-24 11:51:05,001 [INFO] Main  : AI text analysis. Text: a...
+2022-11-24 11:51:05,001 [INFO] Main  : AI text analysis. Response: Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 11:51:05,005 [INFO] 127.0.0.1 - - [24/Nov/2022 11:51:05] "POST /text HTTP/1.1" 200 -
+2022-11-24 11:51:15,900 [INFO] Main  : Starting text process
+2022-11-24 11:51:15,901 [INFO] Main  : Text lenght: 149
+2022-11-24 11:51:16,573 [INFO] google_search    : 1 Pages with matching images found:
+2022-11-24 11:51:16,573 [INFO] google_search    : Page url   : https://g1.globo.com/educacao/noticia/2022/06/28/negro-e-ex-aluno-de-escola-publica-brasileiro-se-forma-em-harvard-e-dedica-diploma-ao-pai-morto-em-acidente-estudou-ate-a-4a-serie.ghtml
+2022-11-24 11:51:16,574 [INFO] Main  : AI text analysis. Text: Negro e ex-aluno de escola pública, brasileiro se ...
+2022-11-24 11:51:16,579 [INFO] Main  : AI text analysis. Response: Essa notícia parece verdadeira.
+2022-11-24 11:51:16,580 [INFO] 127.0.0.1 - - [24/Nov/2022 11:51:16] "POST /text HTTP/1.1" 200 -
+2022-11-24 11:58:36,620 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 11:58:37,011 [INFO]  * Restarting with stat
+2022-11-24 11:58:39,027 [INFO] Main  : Starting API on port 5000
+2022-11-24 11:58:39,032 [WARNING]  * Debugger is active!
+2022-11-24 11:58:39,032 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 11:58:44,401 [INFO] Main  : Starting audio process
+2022-11-24 11:58:44,402 [INFO] Main  : Audio url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 11:58:45,200 [INFO] saving to /home/terada/idfake/API/assets/audio/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 11:58:45,927 [INFO] speech_to_text   : File assets/audio/199d1a0865b4b11b31ae062332978ffc uploaded to 96574368-278d-4285-8542-ae99d54f1db6.ogg.
+2022-11-24 11:58:57,814 [INFO] speech_to_text   : Local audio ogg trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero que tem dois tipos de ladrões o ladrão comum é aquele que rouba sua carteira seu dinheiro do seu relógio e o seu cavalo o ladrão político é aquele que rouba o futuro ou seu conhecimento seu saúde educação e as suas forças e seus sorrisos que a diferença entre esses dois ladrões é que o ladrão comum escolhe para te roubar os teus dentes enquanto ladrão político é você que escolhe para derrubar a outra vez diferença e não menos importante é que o ladrão comum é procurado pela polícia e ladrão político é geralmente protegido pela polícia não é mera coincidência porque ele se encaixa muito bem no Brasil 2022"
+  confidence: 0.930016816
+}
+result_end_time {
+  seconds: 40
+  nanos: 890000000
+}
+language_code: "pt-br"
+]
+2022-11-24 11:58:57,814 [INFO] Main  : AI text analysis. Text: Segundo Lutero que tem dois tipos de ladrões o lad...
+2022-11-24 11:58:57,818 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 11:58:57,819 [INFO] 172.23.32.1 - - [24/Nov/2022 11:58:57] "POST /audio HTTP/1.1" 200 -
+2022-11-24 12:00:38,745 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 12:00:39,116 [INFO]  * Restarting with stat
+2022-11-24 12:00:41,382 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:00:41,388 [WARNING]  * Debugger is active!
+2022-11-24 12:00:41,389 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:00:43,863 [INFO] Main  : Starting audio process
+2022-11-24 12:00:43,864 [INFO] Main  : Audio url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 12:00:44,579 [INFO] saving to /home/terada/idfake/API/assets/audio/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 12:00:45,346 [INFO] speech_to_text   : File assets/audio/199d1a0865b4b11b31ae062332978ffc uploaded to fea205c2-9de9-4979-be23-a99fcca5c38e.ogg.
+2022-11-24 12:01:00,685 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:01:00,691 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-24 12:01:00,691 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-24 12:01:00,693 [INFO]  * Restarting with stat
+2022-11-24 12:01:03,344 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:01:03,351 [WARNING]  * Debugger is active!
+2022-11-24 12:01:03,352 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:01:03,931 [INFO] Main  : Starting audio process
+2022-11-24 12:01:03,931 [INFO] Main  : Audio url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 12:01:04,594 [INFO] saving to /home/terada/idfake/API/assets/audio/199d1a0865b4b11b31ae062332978ffc
+2022-11-24 12:01:05,417 [INFO] speech_to_text   : File assets/audio/199d1a0865b4b11b31ae062332978ffc uploaded to 283eddc9-8162-45e2-b6ae-fadaab01b878.ogg.
+2022-11-24 12:01:33,572 [INFO] speech_to_text   : Local audio ogg trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero que tem dois tipos de ladrões o ladrão comum é aquele que rouba sua carteira seu dinheiro do seu relógio e o seu cavalo o ladrão político é aquele que rouba o futuro ou seu conhecimento seu saúde educação e as suas forças e seus sorrisos que a diferença entre esses dois ladrões é que o ladrão comum escolhe para te roubar os teus dentes enquanto ladrão político é você que escolhe para derrubar a outra vez diferença e não menos importante é que o ladrão comum é procurado pela polícia e ladrão político é geralmente protegido pela polícia não é mera coincidência porque ele se encaixa muito bem no Brasil 2022"
+  confidence: 0.930016875
+}
+result_end_time {
+  seconds: 40
+  nanos: 890000000
+}
+language_code: "pt-br"
+]
+2022-11-24 12:01:33,573 [INFO] Main  : AI text analysis. Text: Segundo Lutero que tem dois tipos de ladrões o lad...
+2022-11-24 12:01:33,575 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 12:01:33,576 [INFO] 172.23.32.1 - - [24/Nov/2022 12:01:33] "POST /audio HTTP/1.1" 200 -
+2022-11-24 12:01:47,611 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 12:01:47,995 [INFO]  * Restarting with stat
+2022-11-24 12:01:50,183 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:01:50,190 [WARNING]  * Debugger is active!
+2022-11-24 12:01:50,190 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:05:44,407 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 12:05:44,794 [INFO]  * Restarting with stat
+2022-11-24 12:05:47,487 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:05:47,496 [WARNING]  * Debugger is active!
+2022-11-24 12:05:47,497 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:06:23,716 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 12:06:24,104 [INFO]  * Restarting with stat
+2022-11-24 12:06:26,610 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:06:26,620 [WARNING]  * Debugger is active!
+2022-11-24 12:06:26,621 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:07:56,769 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:07:56,776 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-24 12:07:56,776 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-24 12:07:56,777 [INFO]  * Restarting with stat
+2022-11-24 12:07:58,700 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:07:58,704 [WARNING]  * Debugger is active!
+2022-11-24 12:07:58,716 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:20:51,440 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 12:20:51,888 [INFO]  * Restarting with stat
+2022-11-24 12:20:54,196 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:20:54,203 [WARNING]  * Debugger is active!
+2022-11-24 12:20:54,205 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 12:21:45,472 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 12:21:45,798 [INFO]  * Restarting with stat
+2022-11-24 12:21:47,947 [INFO] Main  : Starting API on port 5000
+2022-11-24 12:21:47,952 [WARNING]  * Debugger is active!
+2022-11-24 12:21:47,953 [INFO]  * Debugger PIN: 109-302-231
