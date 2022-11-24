@@ -3,23 +3,24 @@ from flask import Flask, request
 import requests
 from twilio.twiml.messaging_response import MessagingResponse
 import argparse
+import logging
 
 # create a argparser
 def prepareArgParser():
-	arg_parser = argparse.ArgumentParser(
-	    description='A Twilio Bot for connect the ID:FAKE API and Whatsapp')
-	arg_parser.add_argument(
-	    'url', help='Url used to conect with the ID:FAKE API', default='http://127.0.0.1:5000/')
-	return arg_parser
+    arg_parser = argparse.ArgumentParser(
+        description='A Twilio Bot for connect the ID:FAKE API and Whatsapp')
+    arg_parser.add_argument(
+        'url', help='Url used to conect with the ID:FAKE API', default='http://127.0.0.1:5000/')
+    return arg_parser
 
 # parses arguments from argparser
 def parseArgs(arg_parser):
-	args = arg_parser.parse_args()
-	url = args.url
-	return (url)
+    args = arg_parser.parse_args()
+    url = args.url
+    return (url)
+
 
 app = Flask(__name__)
-
 
 
 @app.route('/idfake', methods=['POST'])
@@ -34,43 +35,45 @@ def idfake():
     if int(r_msg.get('NumMedia', '')) > 0:
         media_url = r_msg.get('MediaUrl0', '')
         media = requests.get(media_url, stream=True)
-        
-        print(media_url)
-        #time.sleep(3)
-        
+
+        logging.info(f"Media url: {media_url}")
+
         if media.ok:
             media_type = media.headers.get('Content-Type')
             media_type = media_type[media_type.find('/')+1:]
             if media_type == 'jpeg':
-                idf_r = requests.post(url + 'img',json = { 'img' : media_url })
+                idf_r = requests.post(url + 'img', json={'img': media_url})
             elif media_type == 'ogg':
-                idf_r = requests.post(url + 'audio',json = { 'audio' : media_url })
+                idf_r = requests.post(url + 'audio', json={'audio': media_url})
             elif media_type == 'mp4':
-                idf_r = requests.post(url + 'video',json = { 'video' : media_url })
+                idf_r = requests.post(url + 'video', json={'video': media_url})
         else:
-            print('ocoreu um erro, status', media.status_code)
-            msg.body('Não suportamos este tipo de mídia, tente usar jpeg, ogg e mp4')
+            logging.error(f'Ocoreu um erro, status: {media.status_code}')
+            msg.body(
+                'Não suportamos este tipo de mídia, tente usar jpeg, ogg e mp4')
             return str(resp)
     else:
-        idf_r = requests.post(url + 'text',json = {'text': r_msg.get('Body', '')})
-    
+        idf_r = requests.post(
+            url + 'text', json={'text': r_msg.get('Body', '')})
+
     if idf_r.status_code == 200:
-        #print(idf_r.json())
         try:
             resposta = idf_r.json()
-            print(resposta)
+            logging.info(resposta)
             msg.body(resposta)
-        except:
-            print('ocorreu um erro')
+        except Exception as e:
+            logging.info(f'ocorreu um erro. Erro: {e}')
             msg.body('ocorreu um erro, tente novamente ou tente outra imagem')
     else:
-        print('ocoreu um erro, status', idf_r.status_code)
+        logging.error(f'ocoreu um erro, status: {idf_r.status_code}')
         msg.body('ocorreu um erro, tente novamente')
 
-        print(msg)
-    
-    #resposta twilio
+        logging.info(msg)
+
+    # resposta twilio
     return str(resp)
-                
+
+
 if __name__ == '__main__':
+    logging.info("Iniciando aplicacao na porta 8000")
     app.run(host="localhost", port=8000, debug=True)

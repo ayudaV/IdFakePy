@@ -101,4 +101,5 @@ def response_ai(text: str):
 
 
 if __name__ == '__main__':
-    app.run()
+    logging.info("Main  : Starting API on port 5000")
+    app.run(host="localhost", port=5000, debug=True)
