@@ -16,7 +16,9 @@ Para o desenvolvimento desse projeto, foram desenvolvidas duas partes: um ‘bot
 
 Para a execução do código do bot, primeiramente é necessária a criação de uma conta na plataforma da Twilio para hospedar seu bot. Isso pode ser feito através deste link: . A plataforma permite o uso de um sandbox para desenvolvimento, sem custo. O código pode ser testado através do número de telefone do sandbox. O tutorial utilizado para criação do bot na Twilio pode ser encontrado aqui: https://www.twilio.com/blog/criar-um-chatbot-para-whatsapp-com-python-flask-e-twilio
 
-Após isso, execute o arquivo main.py localizado no diretório /BOT e hospede a porta 8000 na web. Este processo pode ser feito através do ngrok, ou servidores como AWS ou Heroku.
+pip install flask twilio
+
+Após isso, execute o arquivo main.py localizado no diretório /BOT e hospede a porta 8000 na web. Este processo pode ser feito através do ngrok, ou servidores como AWS ou Heroku. O arquivo main.py aceita como paremetro a url da ID:FAKE API, caso não seja passado, ela usará a porta 5000 do localhost.
 
 Para a execução do código da API, primeiramente acesse a pasta ‘API’ do Github. 
 Em seguida será necessário fazer a instalação dos pacotes de Python utilizados. 
@@ -36,7 +38,7 @@ Além disso, é necessário ter uma conta na Google Cloud e, posteriormente, ati
 
 As APIs da Google precisam de identificações, para evitar colocá-las no código e causar riscos de segurança, você pode utilizar a GCloud para armazenar suas credenciais. Veja isso em: https://googleapis.dev/python/google-api-core/latest/auth.html.
 
-Por último, para realizar o treinamento da I.A utilizada no projeto, rode os comandos a seguir dentro do diretório “/AI”: 
+Para realizar o treinamento da I.A utilizada no projeto, rode os comandos a seguir dentro do diretório “/AI”: 
 
 git clone https://github.com/roneysco/Fake.br-Corpus.git
 
