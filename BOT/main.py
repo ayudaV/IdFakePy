@@ -1,18 +1,35 @@
 from cgi import print_arguments
 from flask import Flask, request
-import requests, time
+import requests
 from twilio.twiml.messaging_response import MessagingResponse
+import argparse
+
+# create a argparser
+def prepareArgParser():
+	arg_parser = argparse.ArgumentParser(
+	    description='A Twilio Bot for connect the ID:FAKE API and Whatsapp')
+	arg_parser.add_argument(
+	    'url', help='Url used to conect with the ID:FAKE API', default='http://127.0.0.1:5000/')
+	return arg_parser
+
+# parses arguments from argparser
+def parseArgs(arg_parser):
+	args = arg_parser.parse_args()
+	url = args.url
+	return (url)
 
 app = Flask(__name__)
 
+
+
 @app.route('/idfake', methods=['POST'])
-def img():
+def idfake():
+    url = parseArgs(prepareArgParser())
     r_msg = request.values
     resp = MessagingResponse()
     msg = resp.message()
     idf_r = {}
-    url = 'http://127.0.0.1:5000/'
-    
+
     # verifica se há algum conteúdo com a mensagem
     if int(r_msg.get('NumMedia', '')) > 0:
         media_url = r_msg.get('MediaUrl0', '')
