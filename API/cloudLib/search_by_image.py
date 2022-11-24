@@ -1,6 +1,13 @@
 from google.cloud import vision
-import io
-import logging
+import io, logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
 client = vision.ImageAnnotatorClient()
 
 

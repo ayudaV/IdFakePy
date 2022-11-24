@@ -1,30 +1,30 @@
 
-import os
-import cv2
-import subprocess
+import os, subprocess, cv2
 import moviepy.editor as mp
 from cloudLib.speech_to_text import transcribe_audio_local
 from cloudLib.vision_ai import detect_text_local
-import shutil
-import threading
-import logging
-
-folder = 'assets/keyframes/'
+import shutil, logging, threading
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
 
 
 def visual_transcribe(path: str):
     clear_folder(folder)
     save_i_keyframes(path)
-    return [detect_text_local(folder + filename) for filename in os.listdir(folder)]
+    response[1] = [detect_text_local(folder + filename) for filename in os.listdir(folder)]
 
 
 def audio_trancribe(path: str):
     my_clip = mp.VideoFileClip(path)
     my_clip.audio.write_audiofile("assets/audio/video_audio.wav")
     result_audio = transcribe_audio_local('assets/audio/video_audio.wav')
-    logging.info(
-        "video_transcriptor    : audio_trancribe result:" + result_audio)
-    return [r.alternatives[0].transcript for r in result_audio]
+    response[0] = [r.alternatives[0].transcript for r in result_audio]
 
 
 def clear_folder(folder):
@@ -58,22 +58,25 @@ def save_i_keyframes(video_fn):
             ret, frame = cap.read()
             outname = basename+'_i_frame_'+str(frame_no)+'.jpg'
             cv2.imwrite('assets/keyframes/' + outname, frame)
-            logging.info('Saved: '+outname)
+            logging.info(f'Saved: {outname}')
         cap.release()
     else:
-        logging.info('No I-frames in '+video_fn)
+        logging.info(f'No I-frames in {video_fn}')
 
 
 def transcribe_video(path: str):
-    vt = threading.Thread(target=visual_transcribe, args=(1,))
-    at = threading.Thread(target=audio_trancribe, args=(1,))
+    vt = threading.Thread(target=visual_transcribe, args=(path,))
+    at = threading.Thread(target=audio_trancribe, args=(path,))
     vt.start()
     at.start()
     logging.info("video_trancriptor    : wait for the transcriptions to finish")
     vt.join()
     at.join()
     logging.info("video_trancriptor    : all done")
-    result = "\n".join(vt + at)
-    logging.info("video_trancriptor    :" + result)
+    result = "\n".join(response[0] + response[1])
+    logging.info(f"video_trancriptor    : {result}")
 
     return result
+
+folder = 'assets/keyframes/'
+response = [[],[]]

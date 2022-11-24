@@ -1,0 +1,740 @@
+2022-11-24 00:49:00,953 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:49:00,962 [WARNING]  * Debugger is active!
+2022-11-24 00:49:00,969 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:49:08,087 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 00:49:17,776 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:49:17,794 [WARNING]  * Debugger is active!
+2022-11-24 00:49:17,796 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:49:19,877 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/search_by_image.py', reloading
+2022-11-24 00:49:26,840 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:49:26,858 [WARNING]  * Debugger is active!
+2022-11-24 00:49:26,859 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:49:33,953 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 00:49:40,042 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:49:40,059 [WARNING]  * Debugger is active!
+2022-11-24 00:49:40,063 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:50:15,205 [INFO] Main  : Starting text process
+2022-11-24 00:50:15,206 [INFO] Main  : Text lenght: 472
+2022-11-24 00:50:16,068 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 00:50:16,069 [INFO] Main  : AI text analysis.
+Text:O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia Ramos Costa)😖🤔😨😨😱 Triste fim do “MAIOR LADRÃO DO MUNDO”. O maior ladrão do mundo está a caminho de uma severa demência. Roubou, matou, mentiu, sempre acreditando na própria mentira. Antes, durante e após a prisão, esteve sempre convencido de que era e é um herói, o único salvador do Brasil, um semi-deus. Saiu da prisão, convicto de que seria ouvido, acatado, respeitado, endeusado. Todavia, em todos os lugares para onde vai, é expulso pelo povo, sob vaias e gritos: “Luladrão, teu lugar é na prisão”. Vários Estados Brasileiros já declararam: “Aqui, ele não entra”. Nem o mais mal formado espírito, nem a pior e mais gelada consciência humana é capaz de suportar o peso de uma vida tão errada, tão cheia de crimes, de mentiras e de roubos, nunca confessados, nunca admitidos, sempre vigorosamente negados, sempre desmentidos, até a exaustão. Esse conflito interno é dele e irá dilacerá-lo, cada vez mais e não lhe será aliviado, enquanto persistir nessa mentira deslavada, nesse mantra de que é inocente, nesse ódio venenoso, nessa tresloucada arrogância, nessa ridícula e risível megalomania. Ele não consegue acreditar no que está acontecendo à sua volta. Isso deve parecer-lhe um pesadelo. Então, prefere o caminho do ataque. Ataca desesperadamente Jair Messias Bolsonaro, Sérgio Moro, Deltan Dallagnol, para tentar, também desesperadamente, convencer os seus adeptos de que ele é o bom, o certo, o “deus salvador”. Cada vez mais enfurecido, cada vez mais odioso, cada vez mais repugnante, está tão irado, tão fora de si, tão desequilibrado, que não consegue perceber que, desta forma, afasta esse mesmo povo pelo qual ele quer ser cada vez mais paparicado, pelo qual ele tanto deseja ser endeusado. Vejam o abismo entre a expectativa dele e a realidade que está enfrentando... Pouco a pouco, se a ficha do ladrão cair, ele vai enlouquecendo, porque nunca se preparou para ser desprezado e humilhado. Pelo contrário: tudo o que fez foi inflar mais e mais o seu ego do tamanho do mundo e chamar de quadrilha os sérios e honestos Juízes e Procuradores da Lava Jato. A ambição e ganância desmedidas do maior ladrão do mundo vão levá-lo a um fim trágico! Esse verme fez muito mal ao Brasil! Lula vai enlouquecer de vez, abandonado pelos seus companheiros, pelos seus aduladores e até mesmo pelos seus familiares, que têm vergonha da sua sombra. Vai se transformar numa “carniça”, cheia de vermes..... e que fede, cada vez mais.... Quando ele entender que o povo acordou, que o povo tem consciência de quem ele é, o ladrão vai parar num hospício. Esse será o triste e merecido fim do “MAIOR LADRÃO DO MUNDO”. Ps: Compartilhe o máximo que puder, as pessoas precisam compreender de uma vez por todas quem é esse sujeito, não é possível que continuem sendo enganadas...🇧🇷
+2022-11-24 00:50:16,082 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 00:50:16,085 [INFO] 172.23.32.1 - - [24/Nov/2022 00:50:16] "POST /text HTTP/1.1" 200 -
+2022-11-24 00:51:30,128 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 00:51:34,894 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:51:34,909 [WARNING]  * Debugger is active!
+2022-11-24 00:51:34,911 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:52:06,428 [INFO] Main  : Starting text process
+2022-11-24 00:52:06,429 [INFO] Main  : Text lenght: 472
+2022-11-24 00:52:07,144 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 00:52:07,145 [INFO] Main  : AI text analysis.
+Text: O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia Ramos Costa)😖🤔😨😨😱 Triste fim do “MAIOR LADRÃO DO M...
+2022-11-24 00:52:07,198 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 00:52:07,203 [INFO] 172.23.32.1 - - [24/Nov/2022 00:52:07] "POST /text HTTP/1.1" 200 -
+2022-11-24 00:52:43,471 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 00:52:48,258 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:52:48,272 [WARNING]  * Debugger is active!
+2022-11-24 00:52:48,273 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:52:58,298 [INFO] Main  : Starting text process
+2022-11-24 00:52:58,299 [INFO] Main  : Text lenght: 472
+2022-11-24 00:52:58,874 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 00:52:58,874 [INFO] Main  : AI text analysis. Text: O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia ...
+2022-11-24 00:52:58,878 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 00:52:58,879 [INFO] 172.23.32.1 - - [24/Nov/2022 00:52:58] "POST /text HTTP/1.1" 200 -
+2022-11-24 00:53:06,891 [INFO] Main  : Starting text process
+2022-11-24 00:53:06,892 [INFO] Main  : Text lenght: 472
+2022-11-24 00:53:07,599 [INFO] google_search     : Without pages with matching images found.
+2022-11-24 00:53:07,600 [INFO] Main  : AI text analysis. Text: O TRISTE FIM DO MAIOR LADRÃO DO MUNDO... (Natalia ...
+2022-11-24 00:53:07,605 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 00:53:07,607 [INFO] 172.23.32.1 - - [24/Nov/2022 00:53:07] "POST /text HTTP/1.1" 200 -
+2022-11-24 00:53:32,018 [INFO] Main  : Starting image process
+2022-11-24 00:53:33,843 [INFO] vision_ai  : detect_text response: Without text
+2022-11-24 00:53:35,670 [INFO] search_by_image   : 10 Pages with matching images found:
+2022-11-24 00:53:35,671 [INFO] search_by_image   : Page url   : https://www.discovermagazine.com/mind/people-are-terrible-at-spotting-fake-photos
+2022-11-24 00:53:35,672 [INFO] search_by_image   : Page url   : https://www.dailyrecord.co.uk/news/can-you-spot-whats-fake-10816318
+2022-11-24 00:53:35,672 [INFO] search_by_image   : Page url   : https://www.irishmirror.ie/lifestyle/can-you-spot-whats-fake-10816318
+2022-11-24 00:53:35,673 [INFO] search_by_image   : Page url   : https://www.nporadio1.nl/nieuws/wetenschap-techniek/caf5afe4-bf71-4f66-a7b6-4a5c56e74a79/zo-makkelijk-legt-een-foto-mensen-in-de-luren
+2022-11-24 00:53:35,673 [INFO] search_by_image   : Page url   : https://nos.nl/l/2184047
+2022-11-24 00:53:35,673 [INFO] search_by_image   : Page url   : https://www.elcorreo.com/sociedad/foto-manipulada-20170718020436-nt.html
+2022-11-24 00:53:35,674 [INFO] search_by_image   : Page url   : https://g1.globo.com/ciencia-e-saude/noticia/fake-news-40-das-pessoas-nao-conseguem-detectar-imagens-manipuladas-diz-estudo.ghtml
+2022-11-24 00:53:35,675 [INFO] search_by_image   : Page url   : https://br.financas.yahoo.com/noticias/voce-consegue-saber-quando-uma-foto-foi-editada-no-photoshopp-quatro-em-cada-dez-pessoas-nao-conseguem-075447646.html
+2022-11-24 00:53:35,675 [INFO] search_by_image   : Page url   : https://www.20min.ch/story/kann-ich-meinen-augen-ueberhaupt-noch-trauen-460855997585
+2022-11-24 00:53:35,676 [INFO] search_by_image   : Page url   : https://www.watson.ch/wissen/forschung/507719789-so-leicht-gehen-menschen-manipulierten-fotos-auf-den-leim-du-auch
+2022-11-24 00:53:35,677 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 00:53:35,677 [INFO] Main  : AI text analysis. Response:Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 00:53:35,679 [INFO] 172.23.32.1 - - [24/Nov/2022 00:53:35] "POST /img HTTP/1.1" 200 -
+2022-11-24 00:54:19,107 [INFO] Main  : Starting audio process
+2022-11-24 00:54:19,108 [INFO] Main  : Audio url: s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/d25e94cad9674b2dbeedb75c905930dd
+2022-11-24 00:54:30,488 [INFO] speech_to_text   : Audio trancribe done. 
+Response: [alternatives {
+  transcript: "não estava ligado aí por isso ele"
+  confidence: 0.888796151
+}
+result_end_time {
+  seconds: 2
+  nanos: 340000000
+}
+language_code: "pt-br"
+]
+2022-11-24 00:54:30,490 [INFO] Main  : AI text analysis. Text: [alternatives {
+  transcript: "não estava ligado aí por isso ele"
+  confidence: 0.888796151
+}
+result_end_time {
+  seconds: 2
+  nanos: 340000000
+}
+language_code: "pt-br"
+]...
+2022-11-24 00:54:30,507 [INFO] 172.23.32.1 - - [24/Nov/2022 00:54:30] "[35m[1mPOST /audio HTTP/1.1[0m" 500 -
+2022-11-24 00:57:59,746 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 00:58:05,382 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:58:05,391 [WARNING]  * Debugger is active!
+2022-11-24 00:58:05,392 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:58:13,672 [INFO] Main  : Starting audio process
+2022-11-24 00:58:13,673 [INFO] Main  : Audio url: s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/d25e94cad9674b2dbeedb75c905930dd
+2022-11-24 00:58:24,918 [INFO] speech_to_text   : Audio trancribe done. 
+Response: [alternatives {
+  transcript: "não estava ligado aí por isso ele"
+  confidence: 0.888796151
+}
+result_end_time {
+  seconds: 2
+  nanos: 340000000
+}
+language_code: "pt-br"
+]
+2022-11-24 00:58:24,918 [INFO] Main  : AI text analysis. Text: [alternatives {
+  transcript: "não estava ligado aí por isso ele"
+  confidence: 0.888796151
+}
+result_end_time {
+  seconds: 2
+  nanos: 340000000
+}
+language_code: "pt-br"
+]...
+2022-11-24 00:58:24,929 [INFO] 172.23.32.1 - - [24/Nov/2022 00:58:24] "[35m[1mPOST /audio HTTP/1.1[0m" 500 -
+2022-11-24 00:59:44,206 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 00:59:52,945 [INFO] Main  : Starting API on port 5000
+2022-11-24 00:59:52,962 [WARNING]  * Debugger is active!
+2022-11-24 00:59:52,964 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 00:59:52,988 [INFO] Main  : Starting audio process
+2022-11-24 00:59:52,989 [INFO] Main  : Audio url: s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/d25e94cad9674b2dbeedb75c905930dd
+2022-11-24 01:00:02,063 [INFO] speech_to_text   : Audio trancribe done. 
+Response: [alternatives {
+  transcript: "não estava ligado aí por isso ele"
+  confidence: 0.88879627
+}
+result_end_time {
+  seconds: 2
+  nanos: 340000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:00:02,064 [INFO] Main  : AI text analysis. Text: não estava ligado aí por isso ele...
+2022-11-24 01:00:02,065 [INFO] Main  : AI text analysis. Response:Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 01:00:02,067 [INFO] 172.23.32.1 - - [24/Nov/2022 01:00:02] "POST /audio HTTP/1.1" 200 -
+2022-11-24 01:00:15,502 [INFO] Main  : Starting text process
+2022-11-24 01:00:15,503 [INFO] Main  : Text lenght: 311
+2022-11-24 01:00:16,075 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 01:00:16,076 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 01:00:16,076 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 01:00:16,076 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 01:00:16,077 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 01:00:16,077 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 01:00:16,077 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 01:00:16,078 [INFO] Main  : AI text analysis. Text: Declaração chocante. Prêmio Nobel, professor japon...
+2022-11-24 01:00:16,081 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 01:00:16,083 [INFO] 172.23.32.1 - - [24/Nov/2022 01:00:16] "POST /text HTTP/1.1" 200 -
+2022-11-24 01:00:48,445 [INFO] Main  : Starting video process
+2022-11-24 01:00:48,446 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:00:53,747 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:00:53,786 [INFO] video_trancriptor    : all done
+2022-11-24 01:00:53,803 [INFO] 172.23.32.1 - - [24/Nov/2022 01:00:53] "[35m[1mPOST /video HTTP/1.1[0m" 500 -
+2022-11-24 01:06:22,072 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:06:51,722 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:06:51,734 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-24 01:06:51,735 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-24 01:06:51,738 [INFO]  * Restarting with stat
+2022-11-24 01:06:58,862 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:06:58,884 [WARNING]  * Debugger is active!
+2022-11-24 01:06:58,889 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:06:58,926 [INFO] Main  : Starting video process
+2022-11-24 01:06:58,928 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:07:03,981 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:07:03,997 [INFO] video_trancriptor    : all done
+2022-11-24 01:07:03,998 [INFO] video_trancriptor    :
+2022-11-24 01:07:03,998 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 01:07:03,999 [INFO] Main  : AI text analysis. Response:Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 01:07:04,001 [INFO] 172.23.32.1 - - [24/Nov/2022 01:07:04] "POST /video HTTP/1.1" 200 -
+2022-11-24 01:08:15,558 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:08:16,168 [INFO]  * Restarting with stat
+2022-11-24 01:08:20,647 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:08:20,658 [WARNING]  * Debugger is active!
+2022-11-24 01:08:20,660 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:08:25,485 [INFO] Main  : Starting video process
+2022-11-24 01:08:25,486 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:08:31,951 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:08:40,838 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_0.jpg
+2022-11-24 01:08:40,843 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 87454daf-8497-4cc4-b0ee-201aef04867c.wav.
+2022-11-24 01:08:41,294 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_300.jpg
+2022-11-24 01:08:41,745 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_600.jpg
+2022-11-24 01:08:42,336 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_900.jpg
+2022-11-24 01:08:42,954 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1200.jpg
+2022-11-24 01:08:43,433 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1500.jpg
+2022-11-24 01:08:43,887 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1800.jpg
+2022-11-24 01:08:44,310 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_2100.jpg
+2022-11-24 01:08:45,741 [INFO] 
+vision_ai  : detect_text_local response:
+Banita Blekinicão!
+2022-11-24 01:08:46,814 [INFO] 
+vision_ai  : detect_text_local response:
+Baith definição!
+2022-11-24 01:08:47,976 [INFO] 
+vision_ai  : detect_text_local response:
+Tipos de
+LADRÕES
+ava definição!
+2022-11-24 01:08:48,547 [INFO] 
+vision_ai  : detect_text_local response:
+By la definição
+La
+2022-11-24 01:08:49,650 [INFO] 
+vision_ai  : detect_text_local response:
+Baita definição!
+2022-11-24 01:08:50,750 [INFO] 
+vision_ai  : detect_text_local response:
+Balta Definição!
+2022-11-24 01:08:51,882 [INFO] 
+vision_ai  : detect_text_local response:
+Baia Metnição!
+2022-11-24 01:08:52,387 [INFO] 
+vision_ai  : detect_text_local response:
+derinição
+2022-11-24 01:09:06,235 [INFO] speech_to_text   : Local audio trancribe done. 
+Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163411
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016577
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:09:06,237 [INFO] video_trancriptor    : all done
+2022-11-24 01:09:06,237 [INFO] video_trancriptor    :
+2022-11-24 01:09:06,238 [INFO] Main  : AI text analysis. Text: ...
+2022-11-24 01:09:06,238 [INFO] Main  : AI text analysis. Response:Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 01:09:06,241 [INFO] 172.23.32.1 - - [24/Nov/2022 01:09:06] "POST /video HTTP/1.1" 200 -
+2022-11-24 01:10:44,124 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:10:44,617 [INFO]  * Restarting with stat
+2022-11-24 01:10:50,347 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:10:50,361 [WARNING]  * Debugger is active!
+2022-11-24 01:10:50,362 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:11:02,505 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:11:03,150 [INFO]  * Restarting with stat
+2022-11-24 01:11:07,932 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:11:07,943 [WARNING]  * Debugger is active!
+2022-11-24 01:11:07,944 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:11:39,185 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:11:39,868 [INFO]  * Restarting with stat
+2022-11-24 01:11:45,942 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:11:45,977 [WARNING]  * Debugger is active!
+2022-11-24 01:11:45,978 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:13:52,036 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:13:52,645 [INFO]  * Restarting with stat
+2022-11-24 01:14:01,285 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:14:01,299 [WARNING]  * Debugger is active!
+2022-11-24 01:14:01,300 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:14:01,327 [INFO] Main  : Starting video process
+2022-11-24 01:14:01,328 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:14:06,390 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:14:12,746 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_0.jpg
+2022-11-24 01:14:13,239 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_300.jpg
+2022-11-24 01:14:13,749 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_600.jpg
+2022-11-24 01:14:14,281 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_900.jpg
+2022-11-24 01:14:14,815 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1200.jpg
+2022-11-24 01:14:14,971 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 9230a6f6-922a-49df-a9bc-3f0c08b5359b.wav.
+2022-11-24 01:14:15,345 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1500.jpg
+2022-11-24 01:14:15,857 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1800.jpg
+2022-11-24 01:14:16,294 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_2100.jpg
+2022-11-24 01:14:17,728 [INFO] 
+vision_ai  : detect_text_local response:
+Banita Blekinicão!
+2022-11-24 01:14:18,332 [INFO] 
+vision_ai  : detect_text_local response:
+Baith definição!
+2022-11-24 01:14:18,938 [INFO] 
+vision_ai  : detect_text_local response:
+Tipos de
+LADRÕES
+ava definição!
+2022-11-24 01:14:19,560 [INFO] 
+vision_ai  : detect_text_local response:
+By la definição
+La
+2022-11-24 01:14:20,666 [INFO] 
+vision_ai  : detect_text_local response:
+Baita definição!
+2022-11-24 01:14:21,257 [INFO] 
+vision_ai  : detect_text_local response:
+Balta Definição!
+2022-11-24 01:14:21,812 [INFO] 
+vision_ai  : detect_text_local response:
+Baia Metnição!
+2022-11-24 01:14:22,308 [INFO] 
+vision_ai  : detect_text_local response:
+derinição
+2022-11-24 01:14:29,085 [INFO] speech_to_text   : Local audio trancribe done. 
+Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163411
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016518
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:14:29,087 [INFO] video_trancriptor    : all done
+2022-11-24 01:14:29,106 [INFO] 172.23.32.1 - - [24/Nov/2022 01:14:29] "[35m[1mPOST /video HTTP/1.1[0m" 500 -
+2022-11-24 01:21:41,188 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:21:41,959 [INFO]  * Restarting with stat
+2022-11-24 01:21:48,687 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:21:48,702 [WARNING]  * Debugger is active!
+2022-11-24 01:21:48,704 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:21:52,765 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:21:53,430 [INFO]  * Restarting with stat
+2022-11-24 01:21:57,534 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:21:57,546 [WARNING]  * Debugger is active!
+2022-11-24 01:21:57,548 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:22:01,403 [INFO] Main  : Starting video process
+2022-11-24 01:22:01,404 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:22:06,369 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:22:13,765 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_0.jpg
+2022-11-24 01:22:14,346 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_300.jpg
+2022-11-24 01:22:14,853 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_600.jpg
+2022-11-24 01:22:15,375 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_900.jpg
+2022-11-24 01:22:16,076 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1200.jpg
+2022-11-24 01:22:16,623 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1500.jpg
+2022-11-24 01:22:16,931 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 77f2a154-b3d1-47cb-ac62-ff2fca91e6e3.wav.
+2022-11-24 01:22:17,164 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1800.jpg
+2022-11-24 01:22:17,733 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_2100.jpg
+2022-11-24 01:22:18,534 [INFO] 
+vision_ai  : detect_text_local response:
+Banita Blekinicão!
+2022-11-24 01:22:19,511 [INFO] 
+vision_ai  : detect_text_local response:
+Baith definição!
+2022-11-24 01:22:20,585 [INFO] 
+vision_ai  : detect_text_local response:
+Tipos de
+LADRÕES
+ava definição!
+2022-11-24 01:22:21,143 [INFO] 
+vision_ai  : detect_text_local response:
+By la definição
+La
+2022-11-24 01:22:22,144 [INFO] 
+vision_ai  : detect_text_local response:
+Baita definição!
+2022-11-24 01:22:23,143 [INFO] 
+vision_ai  : detect_text_local response:
+Balta Definição!
+2022-11-24 01:22:23,583 [INFO] 
+vision_ai  : detect_text_local response:
+Baia Metnição!
+2022-11-24 01:22:23,964 [INFO] 
+vision_ai  : detect_text_local response:
+derinição
+2022-11-24 01:22:38,590 [INFO] speech_to_text   : Local audio trancribe done. 
+Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163411
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016577
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:22:38,593 [INFO] video_trancriptor    : all done
+2022-11-24 01:22:38,594 [INFO] video_trancriptor    :Banita Blekinicão!
+Baith definição!
+Tipos de
+LADRÕES
+ava definição!
+By la definição
+La
+Baita definição!
+Balta Definição!
+Baia Metnição!
+derinição
+2022-11-24 01:22:38,595 [INFO] Main  : AI text analysis. Text: Banita Blekinicão!
+Baith definição!
+Tipos de
+LADRÕ...
+2022-11-24 01:22:38,597 [INFO] Main  : AI text analysis. Response:Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras.
+2022-11-24 01:22:38,599 [INFO] 172.23.32.1 - - [24/Nov/2022 01:22:38] "POST /video HTTP/1.1" 200 -
+2022-11-24 01:25:48,568 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:25:49,365 [INFO]  * Restarting with stat
+2022-11-24 01:25:55,201 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:25:55,212 [WARNING]  * Debugger is active!
+2022-11-24 01:25:55,213 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:25:58,270 [INFO] Main  : Starting video process
+2022-11-24 01:25:58,271 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:26:03,167 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:26:09,624 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_0.jpg
+2022-11-24 01:26:10,113 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 6f5d6884-82d2-494f-b4ce-f24be9fd56e4.wav.
+2022-11-24 01:26:10,130 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_300.jpg
+2022-11-24 01:26:10,652 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_600.jpg
+2022-11-24 01:26:11,092 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_900.jpg
+2022-11-24 01:26:11,545 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1200.jpg
+2022-11-24 01:26:11,987 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1500.jpg
+2022-11-24 01:26:12,460 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1800.jpg
+2022-11-24 01:26:12,982 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_2100.jpg
+2022-11-24 01:26:14,289 [INFO] 
+vision_ai  : detect_text_local response:
+Banita Blekinicão!
+2022-11-24 01:26:14,929 [INFO] 
+vision_ai  : detect_text_local response:
+Baith definição!
+2022-11-24 01:26:16,109 [INFO] 
+vision_ai  : detect_text_local response:
+Tipos de
+LADRÕES
+ava definição!
+2022-11-24 01:26:17,196 [INFO] 
+vision_ai  : detect_text_local response:
+By la definição
+La
+2022-11-24 01:26:18,274 [INFO] 
+vision_ai  : detect_text_local response:
+Baita definição!
+2022-11-24 01:26:19,337 [INFO] 
+vision_ai  : detect_text_local response:
+Balta Definição!
+2022-11-24 01:26:20,451 [INFO] 
+vision_ai  : detect_text_local response:
+Baia Metnição!
+2022-11-24 01:26:21,514 [INFO] 
+vision_ai  : detect_text_local response:
+derinição
+2022-11-24 01:26:34,687 [INFO] speech_to_text   : Local audio trancribe done. 
+Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163411
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016577
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:26:34,689 [INFO] video_trancriptor    : all done
+2022-11-24 01:26:34,690 [INFO] video_trancriptor    :Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo
+ ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente
+Banita Blekinicão!
+Baith definição!
+Tipos de
+LADRÕES
+ava definição!
+By la definição
+La
+Baita definição!
+Balta Definição!
+Baia Metnição!
+derinição
+2022-11-24 01:26:34,691 [INFO] Main  : AI text analysis. Text: Segundo Lutero existem dois tipos de ladrões o lad...
+2022-11-24 01:26:34,700 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 01:26:34,740 [INFO] 172.23.32.1 - - [24/Nov/2022 01:26:34] "POST /video HTTP/1.1" 200 -
+2022-11-24 01:28:56,847 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 01:28:57,572 [INFO]  * Restarting with stat
+2022-11-24 01:29:02,006 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:29:02,018 [WARNING]  * Debugger is active!
+2022-11-24 01:29:02,019 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:30:56,885 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:30:57,570 [INFO]  * Restarting with stat
+2022-11-24 01:31:01,950 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:31:01,968 [WARNING]  * Debugger is active!
+2022-11-24 01:31:01,969 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:31:10,064 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/video_transcriptor.py', reloading
+2022-11-24 01:31:10,946 [INFO]  * Restarting with stat
+2022-11-24 01:31:16,698 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:31:16,717 [WARNING]  * Debugger is active!
+2022-11-24 01:31:16,718 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:31:39,116 [INFO] Main  : Starting video process
+2022-11-24 01:31:39,118 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:31:40,009 [INFO] saving to /home/terada/idfake/API/assets/video/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:31:43,786 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:31:50,459 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_0.jpg
+2022-11-24 01:31:50,752 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to a42aa497-21ee-439b-bf7a-1e17619f7c1b.wav.
+2022-11-24 01:31:50,884 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_300.jpg
+2022-11-24 01:31:51,317 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_600.jpg
+2022-11-24 01:31:51,750 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_900.jpg
+2022-11-24 01:31:52,223 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1200.jpg
+2022-11-24 01:31:52,700 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1500.jpg
+2022-11-24 01:31:53,130 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1800.jpg
+2022-11-24 01:31:53,604 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_2100.jpg
+2022-11-24 01:31:55,029 [INFO] 
+vision_ai  : detect_text_local response:
+Banita Blekinicão!
+2022-11-24 01:31:56,124 [INFO] 
+vision_ai  : detect_text_local response:
+Baith definição!
+2022-11-24 01:31:57,325 [INFO] 
+vision_ai  : detect_text_local response:
+Tipos de
+LADRÕES
+ava definição!
+2022-11-24 01:31:57,993 [INFO] 
+vision_ai  : detect_text_local response:
+By la definição
+La
+2022-11-24 01:31:59,076 [INFO] 
+vision_ai  : detect_text_local response:
+Baita definição!
+2022-11-24 01:32:00,257 [INFO] 
+vision_ai  : detect_text_local response:
+Balta Definição!
+2022-11-24 01:32:01,379 [INFO] 
+vision_ai  : detect_text_local response:
+Baia Metnição!
+2022-11-24 01:32:02,453 [INFO] 
+vision_ai  : detect_text_local response:
+derinição
+2022-11-24 01:32:20,557 [INFO] speech_to_text   : Local audio trancribe done. 
+Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163232
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016458
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:32:20,558 [INFO] video_trancriptor    : all done
+2022-11-24 01:32:20,558 [INFO] video_trancriptor    : Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo
+ ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente
+Banita Blekinicão!
+Baith definição!
+Tipos de
+LADRÕES
+ava definição!
+By la definição
+La
+Baita definição!
+Balta Definição!
+Baia Metnição!
+derinição
+2022-11-24 01:32:20,558 [INFO] Main  : AI text analysis. Text: Segundo Lutero existem dois tipos de ladrões o lad...
+2022-11-24 01:32:20,561 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 01:32:20,562 [INFO] 172.23.32.1 - - [24/Nov/2022 01:32:20] "POST /video HTTP/1.1" 200 -
+2022-11-24 01:33:05,819 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/speech_to_text.py', reloading
+2022-11-24 01:33:06,339 [INFO]  * Restarting with stat
+2022-11-24 01:33:10,559 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:33:10,567 [WARNING]  * Debugger is active!
+2022-11-24 01:33:10,568 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:33:40,812 [INFO]  * Detected change in '/home/terada/idfake/API/cloudLib/vision_ai.py', reloading
+2022-11-24 01:33:41,600 [INFO]  * Restarting with stat
+2022-11-24 01:33:47,234 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:33:47,244 [WARNING]  * Debugger is active!
+2022-11-24 01:33:47,244 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:33:57,538 [INFO] Main  : Starting video process
+2022-11-24 01:33:57,539 [INFO] Main  : Video url: https://s3-external-1.amazonaws.com/media.twiliocdn.com/ACfb0936b1265a6120b0b5b302c11363af/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:33:58,304 [INFO] saving to /home/terada/idfake/API/assets/video/1b8d011e71d5897ca3c6e1b2d267e40e
+2022-11-24 01:34:01,675 [INFO] video_trancriptor    : wait for the transcriptions to finish
+2022-11-24 01:34:08,107 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_0.jpg
+2022-11-24 01:34:08,526 [INFO] speech_to_text   : File assets/audio/video_audio.wav uploaded to 9d4f30ae-1fa9-4afa-9d0b-c90b8ea95343.wav.
+2022-11-24 01:34:08,584 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_300.jpg
+2022-11-24 01:34:09,065 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_600.jpg
+2022-11-24 01:34:09,489 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_900.jpg
+2022-11-24 01:34:09,895 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1200.jpg
+2022-11-24 01:34:10,308 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1500.jpg
+2022-11-24 01:34:10,706 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_1800.jpg
+2022-11-24 01:34:11,135 [INFO] Saved: 1b8d011e71d5897ca3c6e1b2d267e40e_i_frame_2100.jpg
+2022-11-24 01:34:12,518 [INFO] vision_ai  : detect_text_local response: Banita Blekinicão!
+2022-11-24 01:34:13,613 [INFO] vision_ai  : detect_text_local response: Baith definição!
+2022-11-24 01:34:14,829 [INFO] vision_ai  : detect_text_local response: Tipos de
+LADRÕES
+ava definição!
+2022-11-24 01:34:15,949 [INFO] vision_ai  : detect_text_local response: By la definição
+La
+2022-11-24 01:34:17,051 [INFO] vision_ai  : detect_text_local response: Baita definição!
+2022-11-24 01:34:18,155 [INFO] vision_ai  : detect_text_local response: Balta Definição!
+2022-11-24 01:34:19,269 [INFO] vision_ai  : detect_text_local response: Baia Metnição!
+2022-11-24 01:34:20,369 [INFO] vision_ai  : detect_text_local response: derinição
+2022-11-24 01:34:24,623 [INFO] speech_to_text   : Local audio trancribe done. Response: [alternatives {
+  transcript: "Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo"
+  confidence: 0.914163411
+}
+result_end_time {
+  seconds: 13
+  nanos: 710000000
+}
+language_code: "pt-br"
+, alternatives {
+  transcript: " ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente"
+  confidence: 0.930016518
+}
+result_end_time {
+  seconds: 70
+  nanos: 940000000
+}
+language_code: "pt-br"
+]
+2022-11-24 01:34:24,624 [INFO] video_trancriptor    : all done
+2022-11-24 01:34:24,624 [INFO] video_trancriptor    : Segundo Lutero existem dois tipos de ladrões o ladrão comum que aquele que rouba sua carteira o seu dinheiro o seu relógio o seu cavalo
+ ladrão político que aquele que rouba o seu futuro o seu conhecimento os seus sonhos a sua saúde a sua educação os seus suas forças o seu sorriso atende diferença entre esses dois ladrões é que o ladrão comum escolhe para roubar os teus bens enquanto o político é você que escolhe de roubar a outra grande diferença e não menos importante é que o ladrão como é procurado pela polícia enquanto o ladrão geralmente protegido pela polícia e ladrão uma definição que pertence ao século 18 Qualquer semelhança não é mera coincidência porque ela se encaixa muito bem no Brasil do Século 21 infelizmente
+Banita Blekinicão!
+Baith definição!
+Tipos de
+LADRÕES
+ava definição!
+By la definição
+La
+Baita definição!
+Balta Definição!
+Baia Metnição!
+derinição
+2022-11-24 01:34:24,625 [INFO] Main  : AI text analysis. Text: Segundo Lutero existem dois tipos de ladrões o lad...
+2022-11-24 01:34:24,628 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 01:34:24,631 [INFO] 172.23.32.1 - - [24/Nov/2022 01:34:24] "POST /video HTTP/1.1" 200 -
+2022-11-24 01:35:33,135 [INFO] Main  : Starting image process
+2022-11-24 01:35:36,321 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 01:35:37,129 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 01:35:37,130 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 01:35:37,130 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 01:35:37,130 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 01:35:37,131 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 01:35:37,131 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 01:35:37,132 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 01:35:37,133 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 01:35:37,137 [INFO] Main  : AI text analysis. Response:Essa notícia parece falsa.
+2022-11-24 01:35:37,151 [INFO] 172.23.32.1 - - [24/Nov/2022 01:35:37] "[35m[1mPOST /img HTTP/1.1[0m" 500 -
+2022-11-24 01:36:54,892 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-24 01:36:55,937 [INFO]  * Restarting with stat
+2022-11-24 01:37:02,844 [INFO] Main  : Starting API on port 5000
+2022-11-24 01:37:02,866 [WARNING]  * Debugger is active!
+2022-11-24 01:37:02,868 [INFO]  * Debugger PIN: 109-302-231
+2022-11-24 01:37:19,170 [INFO] Main  : Starting image process
+2022-11-24 01:37:22,701 [INFO] vision_ai  : detect_text response: Declaração chocante.
+Prêmio Nobel, professor japonês de fisiologia e medicina, Tasuku Honjo,
+causou alvoroço e espanto em todas as redes sociais e em todos os
+meios de comunicação hoje ao dizer que esse coronavírus não era
+natural; Se fosse natural, não afetaria o mundo inteiro assim. Porque a
+temperatura varia de um país para outro dependendo da espécie; Se
+fosse natural, afetaria apenas países com a mesma temperatura da
+China. Em vez disso, ele se espalha em um país como a Suíça, bem como
+em áreas desérticas; Se fosse natural, se espalharia em lugares frios,
+mas morreria em lugares quentes. Estudei animais e vírus por mais de
+quarenta (40) anos. Não é natural. Esse vírus é feito e completamente
+artificial. Trabalhei em um laboratório em Wuhan na China por quatro
+(04) anos e conheço muito bem toda a equipe desse laboratório na
+China. Liguei para todos eles após o acidente corona. Mas todos os seus
+telefones estão fora de serviço há meses, e agora todos esses técnicos
+de laboratório estão mortos.
+Com base em todo o meu conhecimento e em todas as pesquisas
+anteriores que foram feitas, posso dizer com cem por cento (100%) de
+certeza que o vírus Corona 19 não é um vírus natural. Não é um vírus de
+morcego. A China o criou intencional e premeditadamente. Se o que eu
+digo hoje estiver errado agora, ou mesmo depois da minha morte, o
+governo da China pode retirar meu Prêmio Nobel. Mas a China está
+mentindo e todo o seu terrível governo comunista deve ser punido
+severamente e com todo o peso da direito penal internacional, porque
+esta grande verdade terrível, imperdoável e desastrosa um dia será
+revelada a todas as pessoas em todo o mundo.
+Por favor, forneça esta mensagem para a grande maioria das pessoas,
+porque é necessário que todos saibam o que está acontecendo com
+todos nós.
+2022-11-24 01:37:23,455 [INFO] google_search    : 6 Pages with matching images found:
+2022-11-24 01:37:23,455 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/nobel-de-medicina-tasuku-honjo-nao-disse-que-novo-coronavirus-foi-criado-pela-china/
+2022-11-24 01:37:23,456 [INFO] google_search    : Page url   : https://g1.globo.com/fato-ou-fake/coronavirus/noticia/2020/04/29/e-fake-que-tasuku-honjo-nobel-de-medicina-em-2018-disse-que-coronavirus-foi-criado-por-cientistas.ghtml
+2022-11-24 01:37:23,456 [INFO] google_search    : Page url   : https://checamos.afp.com/o-nobel-de-medicina-tasuku-honjo-nega-ter-dito-que-o-novo-coronavirus-foi-fabricado-pela-china
+2022-11-24 01:37:23,457 [INFO] google_search    : Page url   : https://politica.estadao.com.br/blogs/estadao-verifica/nobel-de-medicina-tasuku-honjo-nao-disse-que-o-coronavirus-e-artificial/
+2022-11-24 01:37:23,457 [INFO] google_search    : Page url   : https://lupa.uol.com.br/jornalismo/2020/06/05/verificamos-tasuku-honjo-nobel-coronavirus-laboratorio
+2022-11-24 01:37:23,458 [INFO] google_search    : Page url   : https://www.aosfatos.org/radar/#!/whatsapp?coronavirus
+2022-11-24 01:37:23,458 [INFO] Main  : AI text analysis. Text: Declaração chocante.
+Prêmio Nobel, professor japon...
+2022-11-24 01:37:23,464 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-24 01:37:23,468 [INFO] 172.23.32.1 - - [24/Nov/2022 01:37:23] "POST /img HTTP/1.1" 200 -

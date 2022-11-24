@@ -1,7 +1,13 @@
 import google_custom_search
-import os
-import logging
-
+import os, logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
 google = google_custom_search.CustomSearch(
     apikey=os.environ["GCS_DEVELOPER_KEY"], engine_id=os.environ["GCS_CX"])
 

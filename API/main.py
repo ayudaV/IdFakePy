@@ -5,9 +5,15 @@ from cloudLib.search_by_image import detect_web, detect_web_local
 from cloudLib.google_search import search
 from cloudLib.video_transcriptor import transcribe_video
 from idfake_ai.predict import isFake
-import requests
-import os
-import logging
+import requests, os, logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
 
 app = Flask(__name__)
 
@@ -32,6 +38,8 @@ def img():
             logging.warning("Main  : Redirecting to alternative image search")
             path = download(url, 'assets/img')
             search_img = detect_web_local(path)
+    else:
+        search_img = []
     return jsonify("\n\n".join([response_ai(text)] + search_img + pages))
 
 
@@ -42,7 +50,8 @@ def audio():
     url = request_data['audio']
     logging.info(f"Main  : Audio url: {url}")
     res = transcribe_audio(url)
-    return jsonify(response_ai(res))
+    texts = [r.alternatives[0].transcript for r in res]
+    return jsonify(response_ai(" ".join(texts)))
 
 
 @app.route("/text", methods=['POST'])
@@ -76,7 +85,7 @@ def download(url: str, dest_folder: str):
 
     r = requests.get(url, stream=True)
     if r.ok:
-        logging.info("saving to", os.path.abspath(file_path))
+        logging.info(f"saving to {os.path.abspath(file_path)}")
         with open(file_path, 'wb') as f:
             for chunk in r.iter_content(chunk_size=1024 * 8):
                 if chunk:
@@ -85,21 +94,20 @@ def download(url: str, dest_folder: str):
                     os.fsync(f.fileno())
         return file_path
     else:  # HTTP status code 4XX/5XX
-        logging.warning("Main   : Download failed: status code {}\n{}".format(
-            r.status_code, r.text))
+        logging.warning(f"Main   : Download failed: status code {r.status_code}\n{r.text}")
         return None
 
 
 def response_ai(text: str):
-    logging.info("Main  : AI text analysis.\nText:" + text)
+    logging.info(f"Main  : AI text analysis. Text: {text[:50]}...")
     res = "Texto muito pequeno para análise por inteligência artificial! Tamanho minimo: 80 palavras."
     if len(text.split()) > 80:
         res = "Essa notícia parece falsa." if isFake(
             text) == 1 else "Essa notícia parece verdadeira."
-    logging.info("Main  : AI text analysis. Response:" + res)
+    logging.info(f"Main  : AI text analysis. Response: {res}")
     return res
 
 
 if __name__ == '__main__':
     logging.info("Main  : Starting API on port 5000")
-    app.run(host="localhost", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)

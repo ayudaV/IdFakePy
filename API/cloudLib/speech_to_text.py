@@ -1,9 +1,15 @@
 # Imports the Google Cloud client library
 from google.cloud import speech
-import uuid
-import os
 from google.cloud import storage
-import logging
+import uuid, os, logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
 
 client = speech.SpeechClient()
 config_ogg = speech.RecognitionConfig(
@@ -29,7 +35,7 @@ def transcribe_audio(uri):
 
     # Detects speech in the audio file
     response = client.recognize(config=config_ogg, audio=audio)
-    logging.info(f"speech_to_text   : Audio trancribe done. \nResponse: {response.results}")
+    logging.info(f"speech_to_text   : Audio trancribe done. Response: {response.results}")
     return (response.results)
 
 
@@ -42,7 +48,7 @@ def transcribe_audio_local(path):
     # Detects speech in the audio file
     operation = client.long_running_recognize(config=config_wav, audio=audio)
     response = operation.result(timeout=90)
-    logging.info(f"speech_to_text   : Local audio trancribe done. \nResponse: {response.results}")
+    logging.info(f"speech_to_text   : Local audio trancribe done. Response: {response.results}")
     return (response.results)
 
 
