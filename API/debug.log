@@ -1803,3 +1803,125 @@ language_code: "pt-br"
 2022-11-24 12:21:47,947 [INFO] Main  : Starting API on port 5000
 2022-11-24 12:21:47,952 [WARNING]  * Debugger is active!
 2022-11-24 12:21:47,953 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:10:57,461 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:10:57,478 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-26 09:10:57,479 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:10:57,488 [INFO]  * Restarting with stat
+2022-11-26 09:11:00,269 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:11:00,277 [WARNING]  * Debugger is active!
+2022-11-26 09:11:00,280 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:12:26,279 [INFO] Main  : Starting text process
+2022-11-26 09:12:26,280 [INFO] Main  : Text lenght: 207
+2022-11-26 09:12:27,215 [INFO] google_search    : 2 Pages with matching images found:
+2022-11-26 09:12:27,216 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/video-de-policiais-invadindo-o-congresso-nacional-e-de-2017/
+2022-11-26 09:12:27,217 [INFO] google_search    : Page url   : https://g1.globo.com/distrito-federal/noticia/protesto-de-policiais-civis-termina-em-tumulto-no-congresso.ghtml
+2022-11-26 09:12:27,218 [INFO] Main  : AI text analysis. Text: Policiais federais civis e militares invadiram o c...
+2022-11-26 09:12:27,240 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-26 09:12:27,242 [INFO] 172.23.32.1 - - [26/Nov/2022 09:12:27] "POST /text HTTP/1.1" 200 -
+2022-11-26 09:40:13,751 [INFO] Main  : Starting text process
+2022-11-26 09:40:13,751 [INFO] Main  : Text lenght: 207
+2022-11-26 09:40:14,486 [INFO] google_search    : 2 Pages with matching images found:
+2022-11-26 09:40:14,486 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/video-de-policiais-invadindo-o-congresso-nacional-e-de-2017/
+2022-11-26 09:40:14,486 [INFO] google_search    : Page url   : https://g1.globo.com/distrito-federal/noticia/protesto-de-policiais-civis-termina-em-tumulto-no-congresso.ghtml
+2022-11-26 09:40:14,487 [INFO] Main  : AI text analysis. Text: Policiais federais civis e militares invadiram o c...
+2022-11-26 09:40:14,491 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-26 09:40:14,493 [INFO] 127.0.0.1 - - [26/Nov/2022 09:40:14] "POST /text HTTP/1.1" 200 -
+2022-11-26 09:41:18,522 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:41:18,530 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-26 09:41:18,530 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:41:18,532 [INFO]  * Restarting with stat
+2022-11-26 09:41:20,312 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:41:20,318 [WARNING]  * Debugger is active!
+2022-11-26 09:41:20,319 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:41:55,073 [INFO] Main  : Starting text process
+2022-11-26 09:41:55,073 [INFO] Main  : Text lenght: 207
+2022-11-26 09:41:55,862 [INFO] google_search    : 2 Pages with matching images found:
+2022-11-26 09:41:55,863 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/video-de-policiais-invadindo-o-congresso-nacional-e-de-2017/
+2022-11-26 09:41:55,863 [INFO] google_search    : Page url   : https://g1.globo.com/distrito-federal/noticia/protesto-de-policiais-civis-termina-em-tumulto-no-congresso.ghtml
+2022-11-26 09:41:55,863 [INFO] Main  : AI text analysis. Text: Policiais federais civis e militares invadiram o c...
+2022-11-26 09:41:55,866 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-26 09:41:55,867 [INFO] 127.0.0.1 - - [26/Nov/2022 09:41:55] "POST /text HTTP/1.1" 200 -
+2022-11-26 09:45:40,136 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:46:37,825 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:46:37,831 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.37.93:5000
+2022-11-26 09:46:37,831 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:46:37,832 [INFO]  * Restarting with stat
+2022-11-26 09:46:40,494 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:46:40,501 [WARNING]  * Debugger is active!
+2022-11-26 09:46:40,502 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:49:02,495 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-26 09:49:02,790 [INFO]  * Restarting with stat
+2022-11-26 09:49:04,696 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:49:04,703 [WARNING]  * Debugger is active!
+2022-11-26 09:49:04,703 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:49:07,729 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-26 09:49:08,057 [INFO]  * Restarting with stat
+2022-11-26 09:49:09,956 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:49:09,961 [WARNING]  * Debugger is active!
+2022-11-26 09:49:09,962 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:49:14,994 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-26 09:49:15,285 [INFO]  * Restarting with stat
+2022-11-26 09:49:17,112 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:49:17,116 [WARNING]  * Debugger is active!
+2022-11-26 09:49:17,117 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:49:27,133 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:49:27,144 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2022-11-26 09:49:27,145 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:49:27,147 [INFO]  * Restarting with stat
+2022-11-26 09:49:29,510 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:49:29,519 [WARNING]  * Debugger is active!
+2022-11-26 09:49:29,520 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:50:38,899 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-26 09:50:39,217 [INFO]  * Restarting with stat
+2022-11-26 09:50:41,493 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:50:41,502 [WARNING]  * Debugger is active!
+2022-11-26 09:50:41,503 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:50:49,147 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:50:49,157 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2022-11-26 09:50:49,157 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:50:49,160 [INFO]  * Restarting with stat
+2022-11-26 09:50:51,749 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:50:51,759 [WARNING]  * Debugger is active!
+2022-11-26 09:50:51,761 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:52:00,220 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-26 09:52:00,550 [INFO]  * Restarting with stat
+2022-11-26 09:52:46,536 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:52:46,553 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2022-11-26 09:52:46,554 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:52:46,556 [INFO]  * Restarting with stat
+2022-11-26 09:52:49,562 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:52:49,568 [WARNING]  * Debugger is active!
+2022-11-26 09:52:49,569 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:52:54,639 [INFO]  * Detected change in '/home/terada/idfake/API/main.py', reloading
+2022-11-26 09:52:55,151 [INFO]  * Restarting with stat
+2022-11-26 09:52:57,669 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:52:57,680 [WARNING]  * Debugger is active!
+2022-11-26 09:52:57,682 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 09:53:08,627 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:53:08,637 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2022-11-26 09:53:08,638 [INFO] [33mPress CTRL+C to quit[0m
+2022-11-26 09:53:08,640 [INFO]  * Restarting with stat
+2022-11-26 09:53:11,359 [INFO] Main  : Starting API on port 5000
+2022-11-26 09:53:11,367 [WARNING]  * Debugger is active!
+2022-11-26 09:53:11,368 [INFO]  * Debugger PIN: 109-302-231
+2022-11-26 10:05:01,074 [INFO] Main  : Starting text process
+2022-11-26 10:05:01,076 [INFO] Main  : Text lenght: 207
+2022-11-26 10:05:01,910 [INFO] google_search    : 2 Pages with matching images found:
+2022-11-26 10:05:01,911 [INFO] google_search    : Page url   : https://www.aosfatos.org/noticias/video-de-policiais-invadindo-o-congresso-nacional-e-de-2017/
+2022-11-26 10:05:01,912 [INFO] google_search    : Page url   : https://g1.globo.com/distrito-federal/noticia/protesto-de-policiais-civis-termina-em-tumulto-no-congresso.ghtml
+2022-11-26 10:05:01,912 [INFO] Main  : AI text analysis. Text: Policiais federais civis e militares invadiram o c...
+2022-11-26 10:05:01,925 [INFO] Main  : AI text analysis. Response: Essa notícia parece falsa.
+2022-11-26 10:05:01,930 [INFO] 127.0.0.1 - - [26/Nov/2022 10:05:01] "POST /text HTTP/1.1" 200 -

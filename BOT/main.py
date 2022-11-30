@@ -6,26 +6,33 @@ import argparse
 import logging
 
 # create a argparser
+
+
 def prepareArgParser():
     arg_parser = argparse.ArgumentParser(
         description='A Twilio Bot for connect the ID:FAKE API and Whatsapp')
     arg_parser.add_argument(
-        'url', help='Url used to conect with the ID:FAKE API', default='http://127.0.0.1:5000')
+        'url', help='Url used to conect with the ID:FAKE API', nargs='?',  const=1, default='http://127.0.0.1:5000')
     return arg_parser
 
 # parses arguments from argparser
+
+
 def parseArgs(arg_parser):
     args = arg_parser.parse_args()
-    url = args.url + '/'
+    url = args.url
+    if url[:-1] != '/':
+        url += '/'
+    logging.info(url)
     return (url)
 
 
 app = Flask(__name__)
+url = parseArgs(prepareArgParser())
 
 
 @app.route('/', methods=['POST'])
 def idfake():
-    url = parseArgs(prepareArgParser())
     r_msg = request.values
     resp = MessagingResponse()
     msg = resp.message()

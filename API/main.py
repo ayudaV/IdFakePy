@@ -6,7 +6,7 @@ from cloudLib.google_search import search
 from cloudLib.video_transcriptor import transcribe_video
 from idfake_ai.predict import isFake
 import requests
-import os
+import os, sys
 import logging
 logging.basicConfig(
     level=logging.INFO,
@@ -108,24 +108,24 @@ def response_ai(text: str):
     if len(text.split()) > 80:
         if isFake(text) == 1:
             res = "Essa notícia parece falsa."
-            print(bcolors.FAIL +
+            '''print(bcolors.FAIL +
                   "███████╗ █████╗ ██╗  ██╗███████╗\n" +
                   "██╔════╝██╔══██╗██║ ██╔╝██╔════╝\n" +
                   "█████╗  ███████║█████╔╝ █████╗  \n" +
                   "██╔══╝  ██╔══██║██╔═██╗ ██╔══╝  \n" +
                   "██║     ██║  ██║██║  ██╗███████╗\n" +
                   "╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝\n" +
-                  bcolors.ENDC)
+                  bcolors.ENDC)'''
         else:
             res = "Essa notícia parece verdadeira."
-            print(bcolors.OKGREEN +
+            '''print(bcolors.OKGREEN +
                   "██████╗ ███████╗ █████╗ ██╗     \n" +
                   "██╔══██╗██╔════╝██╔══██╗██║     \n" +
                   "██████╔╝█████╗  ███████║██║     \n" +
                   "██╔══██╗██╔══╝  ██╔══██║██║     \n" +
                   "██║  ██║███████╗██║  ██║███████╗\n" +
                   "╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝\n" +
-                  bcolors.ENDC)
+                  bcolors.ENDC)'''
     logging.info(f"Main  : AI text analysis. Response: {res}")
 
     return res
@@ -144,6 +144,7 @@ class bcolors:
 
 
 if __name__ == '__main__':
+    os.system('clear')
     print(bcolors.OKBLUE +
           "██╗██████╗    ███████╗ █████╗ ██╗  ██╗███████╗     █████╗ ██████╗ ██╗\n" + bcolors.OKCYAN +
           "██║██╔══██╗██╗██╔════╝██╔══██╗██║ ██╔╝██╔════╝    ██╔══██╗██╔══██╗██║\n" + bcolors.OKGREEN +
@@ -153,4 +154,4 @@ if __name__ == '__main__':
           "╚═╝╚═════╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚═╝     ╚═╝\n" + 
           bcolors.ENDC)
     logging.info("Main  : Starting API on port 5000")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="localhost", port=5000, debug=True)
